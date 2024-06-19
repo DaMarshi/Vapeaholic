@@ -1,0 +1,34 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:BrownWaterFilledVape"
+      },
+      {
+        "value": "CUSTOM:BrownNightVisionFilledVape"
+      },
+      {
+        "value": "CUSTOM:BrownVape"
+      },
+      {
+        "value": "CUSTOM:BrownInvisibilityFilledVape"
+      },
+      {
+        "value": "CUSTOM:BrownJumpBoostFilledVape"
+      },
+      {
+        "value": "CUSTOM:BrownFireResistanceFilledVape"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "brown",
+    "namespace": "mod"
+  }
+}

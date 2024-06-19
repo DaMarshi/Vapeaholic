@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "vape",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "vapeaholic:red"
+    }
+  ],
+  "result": {
+    "item": "vapeaholic:red_vape",
+    "count": 1
+  }
+}

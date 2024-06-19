@@ -1,0 +1,34 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:OrangeVape"
+      },
+      {
+        "value": "CUSTOM:OrangeWaterFilledVape"
+      },
+      {
+        "value": "CUSTOM:OrangeNightVisionFilledVape"
+      },
+      {
+        "value": "CUSTOM:OrangeInvisibilityFilledVape"
+      },
+      {
+        "value": "CUSTOM:OrangeJumpBoostFilledVape"
+      },
+      {
+        "value": "CUSTOM:OrangeFireResistanceFilledVape"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "orange",
+    "namespace": "mod"
+  }
+}

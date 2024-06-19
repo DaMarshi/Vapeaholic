@@ -1,0 +1,34 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:PurpleWaterFilledVape"
+      },
+      {
+        "value": "CUSTOM:PurpleVape"
+      },
+      {
+        "value": "CUSTOM:PurpleNightVisionFilledVape"
+      },
+      {
+        "value": "CUSTOM:PurpleInvisibilityFilledVape"
+      },
+      {
+        "value": "CUSTOM:PurpleJumpBoostFilledVape"
+      },
+      {
+        "value": "CUSTOM:PurpleFireResistanceFilledVape"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "purple",
+    "namespace": "mod"
+  }
+}

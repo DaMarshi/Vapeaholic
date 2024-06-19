@@ -1,0 +1,4602 @@
+{
+  "mod_elements": [
+    {
+      "name": "VapeRightclicked",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vape_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/procedures/VapeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Vapes/procedures"
+    },
+    {
+      "name": "RedVape",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/red_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/RedVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/BaseVapes"
+    },
+    {
+      "name": "EmptyVapePod",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_vape_pod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/EmptyVapePodItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/empty_vape_pod.json"
+        ]
+      },
+      "path": "~/Vape Pods"
+    },
+    {
+      "name": "Vapes",
+      "type": "tab",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vapes",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "VapePods",
+      "type": "tab",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vape_pods",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Battery",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battery",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/battery.json",
+          "src/main/java/net/mcreator/vapeaholic/item/BatteryItem.java"
+        ]
+      },
+      "path": "~/Vape Components"
+    },
+    {
+      "name": "VapeComponents",
+      "type": "tab",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vape_components",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WaterFilledVapePod",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_filled_vape_pod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/WaterFilledVapePodItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/water_filled_vape_pod.json"
+        ]
+      },
+      "path": "~/Vape Pods"
+    },
+    {
+      "name": "VapePodOfNightVision",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vape_pod_of_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/VapePodOfNightVisionItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/vape_pod_of_night_vision.json"
+        ]
+      },
+      "path": "~/Vape Pods"
+    },
+    {
+      "name": "VapePodOfInvisibility",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vape_pod_of_invisibility",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/VapePodOfInvisibilityItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/vape_pod_of_invisibility.json"
+        ]
+      },
+      "path": "~/Vape Pods"
+    },
+    {
+      "name": "RedNightVisionFilledVape",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_night_vision_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/RedNightVisionFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/red_night_vision_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes"
+    },
+    {
+      "name": "RedWaterFilledVape",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_water_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/red_water_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/RedWaterFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes"
+    },
+    {
+      "name": "NightVisionPuff",
+      "type": "particle",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_puff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/client/particle/NightVisionPuffParticle.java",
+          "src/main/resources/assets/vapeaholic/particles/night_vision_puff.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "WaterPuff",
+      "type": "particle",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_puff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/client/particle/WaterPuffParticle.java",
+          "src/main/resources/assets/vapeaholic/particles/water_puff.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "RedWaterFilledVapeRightclicked",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_filled_vape_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/procedures/RedWaterFilledVapeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Vapes/procedures"
+    },
+    {
+      "name": "RedWater",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/red_water.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes/WaterCrafting"
+    },
+    {
+      "name": "NightVisionFilledVapeRightclicked",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_filled_vape_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/procedures/NightVisionFilledVapeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Vapes/procedures"
+    },
+    {
+      "name": "Coil",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/CoilItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/coil.json"
+        ]
+      },
+      "path": "~/Vape Components"
+    },
+    {
+      "name": "Mouthpiece",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouthpiece",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/MouthpieceItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/mouthpiece.json"
+        ]
+      },
+      "path": "~/Vape Components"
+    },
+    {
+      "name": "WhiteWaterFilledVape",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_water_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/WhiteWaterFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/white_water_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes"
+    },
+    {
+      "name": "WhiteVape",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/white_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/WhiteVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/BaseVapes"
+    },
+    {
+      "name": "WhiteVapeCraft",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_vape_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/white_vape_craft.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting "
+    },
+    {
+      "name": "WhiteNightVisionFilledVape",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_night_vision_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/WhiteNightVisionFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/white_night_vision_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes"
+    },
+    {
+      "name": "RedInvisibilityFilledVape",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_invisibility_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/RedInvisibilityFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/red_invisibility_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes"
+    },
+    {
+      "name": "InvisibilityFilledVapeRightclicked",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisibility_filled_vape_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/procedures/InvisibilityFilledVapeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Vapes/procedures"
+    },
+    {
+      "name": "OrangeWaterFilledVape",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_water_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/OrangeWaterFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/orange_water_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes"
+    },
+    {
+      "name": "YellowWaterFilledVape",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_water_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/YellowWaterFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/yellow_water_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes"
+    },
+    {
+      "name": "BlackWaterFilledVape",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_water_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/BlackWaterFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/black_water_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes"
+    },
+    {
+      "name": "LightGrayWaterFilledVape",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_water_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/LightGrayWaterFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/light_gray_water_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes"
+    },
+    {
+      "name": "GrayWaterFilledVape",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_water_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/GrayWaterFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/gray_water_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes"
+    },
+    {
+      "name": "BrownWaterFilledVape",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_water_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/BrownWaterFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/brown_water_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes"
+    },
+    {
+      "name": "PinkWaterFilledVape",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_water_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/PinkWaterFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/pink_water_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes"
+    },
+    {
+      "name": "MagentaWaterFilledVape",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_water_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/magenta_water_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/MagentaWaterFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes"
+    },
+    {
+      "name": "PurpleWaterFilledVape",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_water_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/purple_water_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/PurpleWaterFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes"
+    },
+    {
+      "name": "BlueWaterFilledVape",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_water_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/BlueWaterFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/blue_water_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes"
+    },
+    {
+      "name": "LightBlueWaterFilledVape",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_water_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/LightBlueWaterFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/light_blue_water_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes"
+    },
+    {
+      "name": "CyanWaterFilledVape",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_water_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/cyan_water_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/CyanWaterFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes"
+    },
+    {
+      "name": "GreenWaterFilledVape",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_water_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/GreenWaterFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/green_water_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes"
+    },
+    {
+      "name": "LimeWaterFilledVape",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_water_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/lime_water_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/LimeWaterFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes"
+    },
+    {
+      "name": "BlackNightVisionFilledVape",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_night_vision_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/BlackNightVisionFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/black_night_vision_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes"
+    },
+    {
+      "name": "LightGrayNightVisionFilledVape",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_night_vision_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/light_gray_night_vision_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/LightGrayNightVisionFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes"
+    },
+    {
+      "name": "GrayNightVisionFilledVape",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_night_vision_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/GrayNightVisionFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/gray_night_vision_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes"
+    },
+    {
+      "name": "BrownNightVisionFilledVape",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_night_vision_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/BrownNightVisionFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/brown_night_vision_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes"
+    },
+    {
+      "name": "PinkNightVisionFilledVape",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_night_vision_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/PinkNightVisionFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/pink_night_vision_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes"
+    },
+    {
+      "name": "MagentaNightVisionFilledVape",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_night_vision_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/MagentaNightVisionFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/magenta_night_vision_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes"
+    },
+    {
+      "name": "PurpleNightVisionFilledVape",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_night_vision_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/purple_night_vision_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/PurpleNightVisionFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes"
+    },
+    {
+      "name": "BlueNightVisionFilledVape",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_night_vision_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/BlueNightVisionFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/blue_night_vision_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes"
+    },
+    {
+      "name": "LightBlueNightVisionFilledVape",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_night_vision_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/light_blue_night_vision_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/LightBlueNightVisionFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes"
+    },
+    {
+      "name": "CyanNightVisionFilledVape",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_night_vision_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/cyan_night_vision_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/CyanNightVisionFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes"
+    },
+    {
+      "name": "GreenNightVisionFilledVape",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_night_vision_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/green_night_vision_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/GreenNightVisionFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes"
+    },
+    {
+      "name": "LimeNightVisionFilledVape",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_night_vision_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/lime_night_vision_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/LimeNightVisionFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes"
+    },
+    {
+      "name": "YellowNightVisionFilledVape",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_night_vision_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/YellowNightVisionFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/yellow_night_vision_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes"
+    },
+    {
+      "name": "OrangeNightVisionFilledVape",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_night_vision_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/orange_night_vision_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/OrangeNightVisionFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes"
+    },
+    {
+      "name": "OrangeWater",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/orange_water.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes/WaterCrafting"
+    },
+    {
+      "name": "BlackVape",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/BlackVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/black_vape.json"
+        ]
+      },
+      "path": "~/Vapes/BaseVapes"
+    },
+    {
+      "name": "LightGrayVape",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/light_gray_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/LightGrayVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/BaseVapes"
+    },
+    {
+      "name": "Gray",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grayvape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/GrayItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/grayvape.json"
+        ]
+      },
+      "path": "~/Vapes/BaseVapes"
+    },
+    {
+      "name": "BrownVape",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/BrownVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/brown_vape.json"
+        ]
+      },
+      "path": "~/Vapes/BaseVapes"
+    },
+    {
+      "name": "PinkVape",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/pink_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/PinkVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/BaseVapes"
+    },
+    {
+      "name": "MagentaVape",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/magenta_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/MagentaVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/BaseVapes"
+    },
+    {
+      "name": "PurpleVape",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/purple_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/PurpleVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/BaseVapes"
+    },
+    {
+      "name": "BlueVape",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/BlueVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/blue_vape.json"
+        ]
+      },
+      "path": "~/Vapes/BaseVapes"
+    },
+    {
+      "name": "LightBlueVape",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/LightBlueVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/light_blue_vape.json"
+        ]
+      },
+      "path": "~/Vapes/BaseVapes"
+    },
+    {
+      "name": "CyanVape",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/cyan_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/CyanVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/BaseVapes"
+    },
+    {
+      "name": "GreenVape",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/green_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/GreenVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/BaseVapes"
+    },
+    {
+      "name": "LimeVape",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/LimeVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/lime_vape.json"
+        ]
+      },
+      "path": "~/Vapes/BaseVapes"
+    },
+    {
+      "name": "YellowVape",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/YellowVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/yellow_vape.json"
+        ]
+      },
+      "path": "~/Vapes/BaseVapes"
+    },
+    {
+      "name": "OrangeVape",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/orange_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/OrangeVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/BaseVapes"
+    },
+    {
+      "name": "LightGray",
+      "type": "tag",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/tags/items/light_gray.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "WhiteTag",
+      "type": "tag",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/tags/items/white_tag.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "GrayTag",
+      "type": "tag",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/tags/items/gray_tag.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "Black",
+      "type": "tag",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/tags/items/black.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "Brown",
+      "type": "tag",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/tags/items/brown.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "Red",
+      "type": "tag",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/tags/items/red.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "Orange",
+      "type": "tag",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/tags/items/orange.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "Yellow",
+      "type": "tag",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/tags/items/yellow.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "Lime",
+      "type": "tag",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/tags/items/lime.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "Green",
+      "type": "tag",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/tags/items/green.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "Cyan",
+      "type": "tag",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/tags/items/cyan.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "LightBlue",
+      "type": "tag",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/tags/items/light_blue.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "Blue",
+      "type": "tag",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/tags/items/blue.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "Purple",
+      "type": "tag",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/tags/items/purple.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "Magenta",
+      "type": "tag",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/tags/items/magenta.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "Pink",
+      "type": "tag",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/tags/items/pink.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "WhiteInvisibilityFilledVape",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_invisibility_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/WhiteInvisibilityFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/white_invisibility_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes"
+    },
+    {
+      "name": "LightGrayInvisibilityFilledVape",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_invisibility_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/LightGrayInvisibilityFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/light_gray_invisibility_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes"
+    },
+    {
+      "name": "GrayInvisibilityFilledVape",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_invisibility_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/gray_invisibility_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/GrayInvisibilityFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes"
+    },
+    {
+      "name": "BlackInvisibilityFilledVape",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_invisibility_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/BlackInvisibilityFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/black_invisibility_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes"
+    },
+    {
+      "name": "BrownInvisibilityFilledVape",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_invisibility_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/BrownInvisibilityFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/brown_invisibility_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes"
+    },
+    {
+      "name": "OrangeInvisibilityFilledVape",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_invisibility_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/orange_invisibility_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/OrangeInvisibilityFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes"
+    },
+    {
+      "name": "YellowInvisibilityFilledVape",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_invisibility_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/YellowInvisibilityFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/yellow_invisibility_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes"
+    },
+    {
+      "name": "LimeInvisibilityFilledVape",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_invisibility_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/lime_invisibility_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/LimeInvisibilityFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes"
+    },
+    {
+      "name": "GreenInvisibilityFilledVape",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_invisibility_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/green_invisibility_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/GreenInvisibilityFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes"
+    },
+    {
+      "name": "CyanInvisibilityFilledVape",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_invisibility_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/CyanInvisibilityFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/cyan_invisibility_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes"
+    },
+    {
+      "name": "LightBlueInvisibilityFilledVape",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_invisibility_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/LightBlueInvisibilityFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/light_blue_invisibility_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes"
+    },
+    {
+      "name": "BlueInvisibilityFilledVape",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_invisibility_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/blue_invisibility_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/BlueInvisibilityFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes"
+    },
+    {
+      "name": "PurpleInvisibilityFilledVape",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_invisibility_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/purple_invisibility_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/PurpleInvisibilityFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes"
+    },
+    {
+      "name": "MagentaInvisibilityFilledVape",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_invisibility_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/MagentaInvisibilityFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/magenta_invisibility_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes"
+    },
+    {
+      "name": "PinkInvisibilityFilledVape",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_invisibility_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/PinkInvisibilityFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/pink_invisibility_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes"
+    },
+    {
+      "name": "JumpBoostPuff",
+      "type": "particle",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jump_boost_puff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/particles/jump_boost_puff.json",
+          "src/main/java/net/mcreator/vapeaholic/client/particle/JumpBoostPuffParticle.java"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "WhiteJumpBoostFilledVape",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_jump_boost_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/white_jump_boost_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/WhiteJumpBoostFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes"
+    },
+    {
+      "name": "JumpBoostFilledVapeRightclicked",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jump_boost_filled_vape_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/procedures/JumpBoostFilledVapeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Vapes/procedures"
+    },
+    {
+      "name": "LightGrayJumpBoostFilledVape",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_jump_boost_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/light_gray_jump_boost_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/LightGrayJumpBoostFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes"
+    },
+    {
+      "name": "GrayJumpBoostFilledVape",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_jump_boost_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/gray_jump_boost_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/GrayJumpBoostFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes"
+    },
+    {
+      "name": "BlackJumpBoostFilledVape",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_jump_boost_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/black_jump_boost_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/BlackJumpBoostFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes"
+    },
+    {
+      "name": "BrownJumpBoostFilledVape",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_jump_boost_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/brown_jump_boost_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/BrownJumpBoostFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes"
+    },
+    {
+      "name": "RedJumpBoostFilledVape",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_jump_boost_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/RedJumpBoostFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/red_jump_boost_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes"
+    },
+    {
+      "name": "OrangeJumpBoostFilledVape",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_jump_boost_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/OrangeJumpBoostFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/orange_jump_boost_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes"
+    },
+    {
+      "name": "YellowJumpBoostFilledVape",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_jump_boost_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/yellow_jump_boost_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/YellowJumpBoostFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes"
+    },
+    {
+      "name": "LimeJumpBoostFilledVape",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_jump_boost_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/lime_jump_boost_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/LimeJumpBoostFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes"
+    },
+    {
+      "name": "GreenJumpBoostFilledVape",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_jump_boost_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/green_jump_boost_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/GreenJumpBoostFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes"
+    },
+    {
+      "name": "CyanJumpBoostFilledVape",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_jump_boost_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/CyanJumpBoostFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/cyan_jump_boost_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes"
+    },
+    {
+      "name": "LightBlueJumpBoostFilledVape",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_jump_boost_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/light_blue_jump_boost_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/LightBlueJumpBoostFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes"
+    },
+    {
+      "name": "BlueJumpBoostFilledVape",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_jump_boost_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/blue_jump_boost_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/BlueJumpBoostFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes"
+    },
+    {
+      "name": "PurpleJumpBoostFilledVape",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_jump_boost_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/PurpleJumpBoostFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/purple_jump_boost_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes"
+    },
+    {
+      "name": "MagentaJumpBoostFilledVape",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_jump_boost_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/magenta_jump_boost_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/MagentaJumpBoostFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes"
+    },
+    {
+      "name": "PinkJumpBoostFilledVape",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_jump_boost_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/PinkJumpBoostFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/pink_jump_boost_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes"
+    },
+    {
+      "name": "YellowWater",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/yellow_water.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes/WaterCrafting"
+    },
+    {
+      "name": "LimeWater",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/lime_water.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes/WaterCrafting"
+    },
+    {
+      "name": "GreenWater",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/green_water.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes/WaterCrafting"
+    },
+    {
+      "name": "CyanWater",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/cyan_water.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes/WaterCrafting"
+    },
+    {
+      "name": "LightBlueWater",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_blue_water.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes/WaterCrafting"
+    },
+    {
+      "name": "BlueWater",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/blue_water.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes/WaterCrafting"
+    },
+    {
+      "name": "PurpleWater",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/purple_water.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes/WaterCrafting"
+    },
+    {
+      "name": "MagentaWater",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_water.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes/WaterCrafting"
+    },
+    {
+      "name": "PinkWater",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/pink_water.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes/WaterCrafting"
+    },
+    {
+      "name": "WhiteWater",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/white_water.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes/WaterCrafting"
+    },
+    {
+      "name": "LightGrayWater",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_gray_water.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes/WaterCrafting"
+    },
+    {
+      "name": "GrayWater",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/gray_water.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes/WaterCrafting"
+    },
+    {
+      "name": "BlackWater",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/black_water.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes/WaterCrafting"
+    },
+    {
+      "name": "BrownWater",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/brown_water.json"
+        ]
+      },
+      "path": "~/Vapes/WaterFilledVapes/WaterCrafting"
+    },
+    {
+      "name": "VapePodOfJumpBoost",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vape_pod_of_jump_boost",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/vape_pod_of_jump_boost.json",
+          "src/main/java/net/mcreator/vapeaholic/item/VapePodOfJumpBoostItem.java"
+        ]
+      },
+      "path": "~/Vape Pods"
+    },
+    {
+      "name": "WhiteNightVision",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/white_night_vision.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes/crafting"
+    },
+    {
+      "name": "LightGrayNightVision",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_gray_night_vision.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes/crafting"
+    },
+    {
+      "name": "GrayNightVision",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/gray_night_vision.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes/crafting"
+    },
+    {
+      "name": "BlackNightVision",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/black_night_vision.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes/crafting"
+    },
+    {
+      "name": "BrownNightVision",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/brown_night_vision.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes/crafting"
+    },
+    {
+      "name": "RedNightVision",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/red_night_vision.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes/crafting"
+    },
+    {
+      "name": "OrangeNightVision",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/orange_night_vision.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes/crafting"
+    },
+    {
+      "name": "YellowNightVision",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/yellow_night_vision.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes/crafting"
+    },
+    {
+      "name": "LimeNightVision",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/lime_night_vision.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes/crafting"
+    },
+    {
+      "name": "GreenNightVision",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/green_night_vision.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes/crafting"
+    },
+    {
+      "name": "CyanNightVision",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/cyan_night_vision.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes/crafting"
+    },
+    {
+      "name": "LightBlueNightVision",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_blue_night_vision.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes/crafting"
+    },
+    {
+      "name": "BlueNightVision",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/blue_night_vision.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes/crafting"
+    },
+    {
+      "name": "PurpleNightVision",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/purple_night_vision.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes/crafting"
+    },
+    {
+      "name": "MagentaNightVision",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_night_vision.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes/crafting"
+    },
+    {
+      "name": "PinkNightVision",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_night_vision",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/pink_night_vision.json"
+        ]
+      },
+      "path": "~/Vapes/NightVisionFilledVapes/crafting"
+    },
+    {
+      "name": "LightGrayColor1",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_color_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_gray_color_1.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "LightGrayColor2",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_color_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_gray_color_2.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "LightGrayColor3",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_color_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_gray_color_3.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "GrayColor1",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_color_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/gray_color_1.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "GrayColor2",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_color_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/gray_color_2.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "BlackColor1",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_color_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/black_color_1.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "BrownColor1",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_color_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/brown_color_1.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "RedColor1",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_color_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/red_color_1.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "OrangeColor1",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_color_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/orange_color_1.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "OrangeColor2",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_color_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/orange_color_2.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "OrangeColor3",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_color_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/orange_color_3.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "OrangeColor4",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_color_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/orange_color_4.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "LightGrayColor4",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_color_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_gray_color_4.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "YellowColor1",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_color_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/yellow_color_1.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "LimeColor1",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_color_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/lime_color_1.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "LimeColor2",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_color_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/lime_color_2.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "LimeColor3",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_color_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/lime_color_3.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "GreenColor1",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_color_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/green_color_1.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "CyanColor1",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_color_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/cyan_color_1.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "CyanColor2",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_color_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/cyan_color_2.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "CyanColor3",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_color_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/cyan_color_3.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "CyanColor4",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_color_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/cyan_color_4.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "LightBlueColor1",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_color_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_blue_color_1.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "LightBlueColor2",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_color_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_blue_color_2.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "LightBlueColor3",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_color_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_blue_color_3.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "BlueColor1",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_color_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/blue_color_1.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "PurpleColor1",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_color_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/purple_color_1.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "PurpleColor2",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_color_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/purple_color_2.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "PurpleColor3",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_color_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/purple_color_3.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "PurpleColor4",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_color_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/purple_color_4.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "MagentaColor1",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_color_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_color_1.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "MagentaColor2",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_color_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_color_2.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "MagentaColor3",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_color_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_color_3.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "MagentaColor4",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_color_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_color_4.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "MagentaColor5",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_color_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_color_5.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "MagentaColor6",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_color_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_color_6.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "MagentaColor7",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_color_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_color_7.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "MagentaColor8",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_color_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_color_8.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "MagentaColor9",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_color_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_color_9.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "MagentaColor10",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_color_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_color_10.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "MagentaColor11",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_color_11",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_color_11.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "PinkColor1",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_color_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/pink_color_1.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "PinkColor2",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_color_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/pink_color_2.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "PinkColor3",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_color_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/pink_color_3.json"
+        ]
+      },
+      "path": "~/Vapes/BaseCrafting /colorcrafting"
+    },
+    {
+      "name": "WhiteInvisibility",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_invisibility",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/white_invisibility.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes/InvisibilityCrafting"
+    },
+    {
+      "name": "LightGrayInvisibility",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_invisibility",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_gray_invisibility.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes/InvisibilityCrafting"
+    },
+    {
+      "name": "GrayInvisibility",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_invisibility",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/gray_invisibility.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes/InvisibilityCrafting"
+    },
+    {
+      "name": "BlackInvisibility",
+      "type": "recipe",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_invisibility",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/black_invisibility.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes/InvisibilityCrafting"
+    },
+    {
+      "name": "BrownInvisibility",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_invisibility",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/brown_invisibility.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes/InvisibilityCrafting"
+    },
+    {
+      "name": "RedInvisibility",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_invisibility",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/red_invisibility.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes/InvisibilityCrafting"
+    },
+    {
+      "name": "OrangeInvisibility",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_invisibility",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/orange_invisibility.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes/InvisibilityCrafting"
+    },
+    {
+      "name": "YellowInvisibility",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_invisibility",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/yellow_invisibility.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes/InvisibilityCrafting"
+    },
+    {
+      "name": "LimeInvisibility",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_invisibility",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/lime_invisibility.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes/InvisibilityCrafting"
+    },
+    {
+      "name": "GreenInvisibility",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_invisibility",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/green_invisibility.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes/InvisibilityCrafting"
+    },
+    {
+      "name": "CyanInvisibility",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_invisibility",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/cyan_invisibility.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes/InvisibilityCrafting"
+    },
+    {
+      "name": "LightBlueInvisibility",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_invisibility",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_blue_invisibility.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes/InvisibilityCrafting"
+    },
+    {
+      "name": "BlueInvisibility",
+      "type": "recipe",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_invisibility",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/blue_invisibility.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes/InvisibilityCrafting"
+    },
+    {
+      "name": "PurpleInvisibility",
+      "type": "recipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_invisibility",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/purple_invisibility.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes/InvisibilityCrafting"
+    },
+    {
+      "name": "MagentaInvisibility",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_invisibility",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_invisibility.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes/InvisibilityCrafting"
+    },
+    {
+      "name": "PinkInvisibility",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_invisibility",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/pink_invisibility.json"
+        ]
+      },
+      "path": "~/Vapes/InvisibilityFilledVapes/InvisibilityCrafting"
+    },
+    {
+      "name": "MundanePotionFilledVapePod",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mundane_potion_filled_vape_pod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/MundanePotionFilledVapePodItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/mundane_potion_filled_vape_pod.json"
+        ]
+      },
+      "path": "~/Vape Pods"
+    },
+    {
+      "name": "ThickPotionFilledVapePod",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thick_potion_filled_vape_pod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/ThickPotionFilledVapePodItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/thick_potion_filled_vape_pod.json"
+        ]
+      },
+      "path": "~/Vape Pods"
+    },
+    {
+      "name": "AwkwardPotionFilledVapePod",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "awkward_potion_filled_vape_pod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/AwkwardPotionFilledVapePodItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/awkward_potion_filled_vape_pod.json"
+        ]
+      },
+      "path": "~/Vape Pods"
+    },
+    {
+      "name": "FireResistancePuff",
+      "type": "particle",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_resistance_puff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/client/particle/FireResistancePuffParticle.java",
+          "src/main/resources/assets/vapeaholic/particles/fire_resistance_puff.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "VapePodOfFireResistance",
+      "type": "item",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vape_pod_of_fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/vape_pod_of_fire_resistance.json",
+          "src/main/java/net/mcreator/vapeaholic/item/VapePodOfFireResistanceItem.java"
+        ]
+      },
+      "path": "~/Vape Pods"
+    },
+    {
+      "name": "VapePodOfSwiftness",
+      "type": "item",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vape_pod_of_swiftness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/VapePodOfSwiftnessItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/vape_pod_of_swiftness.json"
+        ]
+      },
+      "path": "~/Vape Pods"
+    },
+    {
+      "name": "SwiftnessPuff",
+      "type": "particle",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swiftness_puff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/client/particle/SwiftnessPuffParticle.java",
+          "src/main/resources/assets/vapeaholic/particles/swiftness_puff.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "SlownessPuff",
+      "type": "particle",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slowness_puff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/client/particle/SlownessPuffParticle.java",
+          "src/main/resources/assets/vapeaholic/particles/slowness_puff.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "VapePodOfSlowness",
+      "type": "item",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vape_pod_of_slowness",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/vape_pod_of_slowness.json",
+          "src/main/java/net/mcreator/vapeaholic/item/VapePodOfSlownessItem.java"
+        ]
+      },
+      "path": "~/Vape Pods"
+    },
+    {
+      "name": "WhiteLeaping",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_leaping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/white_leaping.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes/JumpBoostCrafting"
+    },
+    {
+      "name": "LightGrayLeaping",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_leaping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_gray_leaping.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes/JumpBoostCrafting"
+    },
+    {
+      "name": "GrayLeaping",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_leaping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/gray_leaping.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes/JumpBoostCrafting"
+    },
+    {
+      "name": "BlackLeaping",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_leaping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/black_leaping.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes/JumpBoostCrafting"
+    },
+    {
+      "name": "BrownLeaping",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_leaping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/brown_leaping.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes/JumpBoostCrafting"
+    },
+    {
+      "name": "RedLeaping",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_leaping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/red_leaping.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes/JumpBoostCrafting"
+    },
+    {
+      "name": "OrangeLeaping",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_leaping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/orange_leaping.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes/JumpBoostCrafting"
+    },
+    {
+      "name": "YellowLeaping",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_leaping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/yellow_leaping.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes/JumpBoostCrafting"
+    },
+    {
+      "name": "LimeLeaping",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_leaping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/lime_leaping.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes/JumpBoostCrafting"
+    },
+    {
+      "name": "GreenLeaping",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_leaping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/green_leaping.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes/JumpBoostCrafting"
+    },
+    {
+      "name": "CyanLeaping",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_leaping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/cyan_leaping.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes/JumpBoostCrafting"
+    },
+    {
+      "name": "LightBlueLeaping",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_leaping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_blue_leaping.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes/JumpBoostCrafting"
+    },
+    {
+      "name": "BlueLeaping",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_leaping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/blue_leaping.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes/JumpBoostCrafting"
+    },
+    {
+      "name": "PurpleLeaping",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_leaping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/purple_leaping.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes/JumpBoostCrafting"
+    },
+    {
+      "name": "MagentaLeaping",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_leaping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_leaping.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes/JumpBoostCrafting"
+    },
+    {
+      "name": "PinkLeaping",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_leaping",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/pink_leaping.json"
+        ]
+      },
+      "path": "~/Vapes/JumpBoostFilledVapes/JumpBoostCrafting"
+    },
+    {
+      "name": "TurtleMasterPuff",
+      "type": "particle",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_master_puff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/particles/turtle_master_puff.json",
+          "src/main/java/net/mcreator/vapeaholic/client/particle/TurtleMasterPuffParticle.java"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "VapePodOfTheTurtleMaster",
+      "type": "item",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vape_pod_of_the_turtle_master",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/vape_pod_of_the_turtle_master.json",
+          "src/main/java/net/mcreator/vapeaholic/item/VapePodOfTheTurtleMasterItem.java"
+        ]
+      },
+      "path": "~/Vape Pods"
+    },
+    {
+      "name": "WhiteReset",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/white_reset.json"
+        ]
+      },
+      "path": "~/Vapes/Crafting"
+    },
+    {
+      "name": "LightGrayReset",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_gray_reset.json"
+        ]
+      },
+      "path": "~/Vapes/Crafting"
+    },
+    {
+      "name": "GrayReset",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/gray_reset.json"
+        ]
+      },
+      "path": "~/Vapes/Crafting"
+    },
+    {
+      "name": "BlackReset",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/black_reset.json"
+        ]
+      },
+      "path": "~/Vapes/Crafting"
+    },
+    {
+      "name": "BrownReset",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/brown_reset.json"
+        ]
+      },
+      "path": "~/Vapes/Crafting"
+    },
+    {
+      "name": "RedReset",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/red_reset.json"
+        ]
+      },
+      "path": "~/Vapes/Crafting"
+    },
+    {
+      "name": "OrangeReset",
+      "type": "recipe",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/orange_reset.json"
+        ]
+      },
+      "path": "~/Vapes/Crafting"
+    },
+    {
+      "name": "YellowReset",
+      "type": "recipe",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/yellow_reset.json"
+        ]
+      },
+      "path": "~/Vapes/Crafting"
+    },
+    {
+      "name": "LimeReset",
+      "type": "recipe",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/lime_reset.json"
+        ]
+      },
+      "path": "~/Vapes/Crafting"
+    },
+    {
+      "name": "GreenReset",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/green_reset.json"
+        ]
+      },
+      "path": "~/Vapes/Crafting"
+    },
+    {
+      "name": "CyanReset",
+      "type": "recipe",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/cyan_reset.json"
+        ]
+      },
+      "path": "~/Vapes/Crafting"
+    },
+    {
+      "name": "LightBlueReset",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_blue_reset.json"
+        ]
+      },
+      "path": "~/Vapes/Crafting"
+    },
+    {
+      "name": "BlueReset",
+      "type": "recipe",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/blue_reset.json"
+        ]
+      },
+      "path": "~/Vapes/Crafting"
+    },
+    {
+      "name": "PurpleReset",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/purple_reset.json"
+        ]
+      },
+      "path": "~/Vapes/Crafting"
+    },
+    {
+      "name": "MagentaReset",
+      "type": "recipe",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_reset.json"
+        ]
+      },
+      "path": "~/Vapes/Crafting"
+    },
+    {
+      "name": "PinkReset",
+      "type": "recipe",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_reset",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/pink_reset.json"
+        ]
+      },
+      "path": "~/Vapes/Crafting"
+    },
+    {
+      "name": "WhiteFireResistanceFilledVape",
+      "type": "item",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_fire_resistance_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/WhiteFireResistanceFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/white_fire_resistance_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes"
+    },
+    {
+      "name": "FireResistanceFilledVapeRightclicked",
+      "type": "procedure",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_resistance_filled_vape_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/procedures/FireResistanceFilledVapeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Vapes/procedures"
+    },
+    {
+      "name": "LightGrayFireResistanceFilledVape",
+      "type": "item",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_fire_resistance_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/light_gray_fire_resistance_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/LightGrayFireResistanceFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes"
+    },
+    {
+      "name": "GrayFireResistanceFilledVape",
+      "type": "item",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_fire_resistance_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/GrayFireResistanceFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/gray_fire_resistance_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes"
+    },
+    {
+      "name": "BlackFireResistanceFilledVape",
+      "type": "item",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_fire_resistance_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/BlackFireResistanceFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/black_fire_resistance_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes"
+    },
+    {
+      "name": "BrownFireResistanceFilledVape",
+      "type": "item",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_fire_resistance_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/BrownFireResistanceFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/brown_fire_resistance_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes"
+    },
+    {
+      "name": "RedFireResistanceFilledVape",
+      "type": "item",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_fire_resistance_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/red_fire_resistance_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/RedFireResistanceFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes"
+    },
+    {
+      "name": "OrangeFireResistanceFilledVape",
+      "type": "item",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_fire_resistance_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/OrangeFireResistanceFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/orange_fire_resistance_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes"
+    },
+    {
+      "name": "YellowFireResistanceFilledVape",
+      "type": "item",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_fire_resistance_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/yellow_fire_resistance_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/YellowFireResistanceFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes"
+    },
+    {
+      "name": "LimeFireResistanceFilledVape",
+      "type": "item",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_fire_resistance_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/lime_fire_resistance_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/LimeFireResistanceFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes"
+    },
+    {
+      "name": "GreenFireResistanceFilledVape",
+      "type": "item",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_fire_resistance_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/green_fire_resistance_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/GreenFireResistanceFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes"
+    },
+    {
+      "name": "CyanFireResistanceFilledVape",
+      "type": "item",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_fire_resistance_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/cyan_fire_resistance_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/CyanFireResistanceFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes"
+    },
+    {
+      "name": "LightBlueFireResistanceFilledVape",
+      "type": "item",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_fire_resistance_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/LightBlueFireResistanceFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/light_blue_fire_resistance_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes"
+    },
+    {
+      "name": "BlueFireResistanceFilledVape",
+      "type": "item",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_fire_resistance_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/blue_fire_resistance_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/BlueFireResistanceFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes"
+    },
+    {
+      "name": "PurpleFireResistanceFilledVape",
+      "type": "item",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_fire_resistance_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/purple_fire_resistance_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/PurpleFireResistanceFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes"
+    },
+    {
+      "name": "MagentaFireResistanceFilledVape",
+      "type": "item",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_fire_resistance_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/magenta_fire_resistance_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/MagentaFireResistanceFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes"
+    },
+    {
+      "name": "PinkFireResistanceFilledVape",
+      "type": "item",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_fire_resistance_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/PinkFireResistanceFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/pink_fire_resistance_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes"
+    },
+    {
+      "name": "WhiteFireResistance",
+      "type": "recipe",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/white_fire_resistance.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes/FireResistanceCrafting"
+    },
+    {
+      "name": "LightGrayFireResistance",
+      "type": "recipe",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_gray_fire_resistance.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes/FireResistanceCrafting"
+    },
+    {
+      "name": "GrayFireResistance",
+      "type": "recipe",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/gray_fire_resistance.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes/FireResistanceCrafting"
+    },
+    {
+      "name": "BlackFireResistance",
+      "type": "recipe",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/black_fire_resistance.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes/FireResistanceCrafting"
+    },
+    {
+      "name": "BrownFireResistance",
+      "type": "recipe",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/brown_fire_resistance.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes/FireResistanceCrafting"
+    },
+    {
+      "name": "RedFireResistance",
+      "type": "recipe",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/red_fire_resistance.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes/FireResistanceCrafting"
+    },
+    {
+      "name": "OrangeFireResistance",
+      "type": "recipe",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/orange_fire_resistance.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes/FireResistanceCrafting"
+    },
+    {
+      "name": "YellowFireResistance",
+      "type": "recipe",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/yellow_fire_resistance.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes/FireResistanceCrafting"
+    },
+    {
+      "name": "LimeFireResistance",
+      "type": "recipe",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/lime_fire_resistance.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes/FireResistanceCrafting"
+    },
+    {
+      "name": "GreenFireResistance",
+      "type": "recipe",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/green_fire_resistance.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes/FireResistanceCrafting"
+    },
+    {
+      "name": "CyanFireResistance",
+      "type": "recipe",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/cyan_fire_resistance.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes/FireResistanceCrafting"
+    },
+    {
+      "name": "LightBlueFireResistance",
+      "type": "recipe",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_blue_fire_resistance.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes/FireResistanceCrafting"
+    },
+    {
+      "name": "BlueFireResistance",
+      "type": "recipe",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/blue_fire_resistance.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes/FireResistanceCrafting"
+    },
+    {
+      "name": "PurpleFireResistance",
+      "type": "recipe",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/purple_fire_resistance.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes/FireResistanceCrafting"
+    },
+    {
+      "name": "MagentaFireResistance",
+      "type": "recipe",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_fire_resistance.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes/FireResistanceCrafting"
+    },
+    {
+      "name": "PinkFireResistance",
+      "type": "recipe",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/pink_fire_resistance.json"
+        ]
+      },
+      "path": "~/Vapes/FireResistanceFilledVapes/FireResistanceCrafting"
+    },
+    {
+      "name": "AwkwardBrew",
+      "type": "recipe",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "awkward_brew",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/recipes/brewing/AwkwardBrewBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Vape Pods/brewing"
+    },
+    {
+      "name": "NightVisBrew",
+      "type": "recipe",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vis_brew",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/recipes/brewing/NightVisBrewBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Vape Pods/brewing"
+    },
+    {
+      "name": "InvisBrew",
+      "type": "recipe",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invis_brew",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/recipes/brewing/InvisBrewBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Vape Pods/brewing"
+    },
+    {
+      "name": "LeapingBrew",
+      "type": "recipe",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaping_brew",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/recipes/brewing/LeapingBrewBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Vape Pods/brewing"
+    },
+    {
+      "name": "FireResBrew",
+      "type": "recipe",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_res_brew",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/recipes/brewing/FireResBrewBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Vape Pods/brewing"
+    },
+    {
+      "name": "SwiftnessBrew",
+      "type": "recipe",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swiftness_brew",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/recipes/brewing/SwiftnessBrewBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Vape Pods/brewing"
+    },
+    {
+      "name": "SlowBrew1",
+      "type": "recipe",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slow_brew_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/recipes/brewing/SlowBrew1BrewingRecipe.java"
+        ]
+      },
+      "path": "~/Vape Pods/brewing"
+    },
+    {
+      "name": "SlowBrew2",
+      "type": "recipe",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slow_brew_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/recipes/brewing/SlowBrew2BrewingRecipe.java"
+        ]
+      },
+      "path": "~/Vape Pods/brewing"
+    },
+    {
+      "name": "TurtleMasterBrew",
+      "type": "recipe",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_master_brew",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/recipes/brewing/TurtleMasterBrewBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Vape Pods/brewing"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "PuffAmount",
+      "type": "number",
+      "scope": "map",
+      "value": "3.0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "breathing",
+      "files": [
+        "breathing3",
+        "breathing2",
+        "breathing1"
+      ],
+      "category": "player",
+      "subtitle": "Player Vaping"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.vapeaholic.white_night_vision_filled_vape": "White Vape",
+      "item.vapeaholic.black_jump_boost_filled_vape": "Black Vape",
+      "item.vapeaholic.light_gray_water_filled_vape": "Light Gray Vape",
+      "item.vapeaholic.lime_fire_resistance_filled_vape": "Lime Vape",
+      "item.vapeaholic.blue_water_filled_vape": "Blue Vape",
+      "item.vapeaholic.mouthpiece": "Mouthpiece",
+      "item.vapeaholic.light_blue_water_filled_vape": "Light Blue Vape",
+      "item.vapeaholic.empty_vape_pod": "Empty Vape Pod",
+      "item.vapeaholic.purple_night_vision_filled_vape": "Purple Vape",
+      "item.vapeaholic.white_fire_resistance_filled_vape": "White Vape",
+      "item.vapeaholic.vape_pod_of_night_vision": "Vape Pod Of Night Vision",
+      "item.vapeaholic.red_night_vision_filled_vape": "Red Vape",
+      "item.vapeaholic.magenta_vape": "Magenta Vape",
+      "item.vapeaholic.awkward_potion_filled_vape_pod": "Awkward Potion Filled Vape Pod",
+      "item.vapeaholic.pink_fire_resistance_filled_vape": "Pink Vape",
+      "item.vapeaholic.yellow_night_vision_filled_vape": "Yellow Vape",
+      "item.vapeaholic.purple_vape": "Purple Vape",
+      "subtitles.breathing": "Player Vaping",
+      "item.vapeaholic.thick_potion_filled_vape_pod": "Thick Potion Filled Vape Pod",
+      "item.vapeaholic.yellow_invisibility_filled_vape": "Yellow Vape",
+      "item.vapeaholic.light_gray_fire_resistance_filled_vape": "Light Gray Vape",
+      "item.vapeaholic.light_gray_vape": "Light Gray Vape",
+      "item.vapeaholic.cyan_jump_boost_filled_vape": "Cyan Vape",
+      "item.vapeaholic.gray_fire_resistance_filled_vape": "Gray Vape",
+      "item.vapeaholic.orange_vape": "Orange Vape",
+      "item.vapeaholic.orange_water_filled_vape": "Orange Vape",
+      "item.vapeaholic.brown_water_filled_vape": "Brown Vape",
+      "item.vapeaholic.orange_jump_boost_filled_vape": "Orange Vape",
+      "item.vapeaholic.light_blue_night_vision_filled_vape": "Light Blue Vape",
+      "item.vapeaholic.pink_vape": "Pink Vape",
+      "item.vapeaholic.cyan_night_vision_filled_vape": "Cyan Vape",
+      "item.vapeaholic.magenta_night_vision_filled_vape": "Magenta Vape",
+      "item.vapeaholic.cyan_invisibility_filled_vape": "Cyan Vape",
+      "item.vapeaholic.magenta_water_filled_vape": "Magenta Vape",
+      "item.vapeaholic.pink_invisibility_filled_vape": "Pink Vape",
+      "item.vapeaholic.pink_night_vision_filled_vape": "Pink Vape",
+      "item.vapeaholic.red_vape": "Red Vape",
+      "item.vapeaholic.black_invisibility_filled_vape": "Black Vape",
+      "item.vapeaholic.gray_vape": "Gray Vape",
+      "item.vapeaholic.light_blue_invisibility_filled_vape": "Light Blue Vape",
+      "item.vapeaholic.water_filled_vape_pod": "Water Filled Vape Pod",
+      "item.vapeaholic.brown_night_vision_filled_vape": "Brown Vape",
+      "item.vapeaholic.yellow_water_filled_vape": "Yellow Vape",
+      "item.vapeaholic.light_blue_vape": "Light Blue Vape",
+      "item.vapeaholic.gray_water_filled_vape": "Gray Vape",
+      "item.vapeaholic.red_water_filled_vape": "Red Vape",
+      "item.vapeaholic.magenta_fire_resistance_filled_vape": "Magenta Vape",
+      "item.vapeaholic.mundane_potion_filled_vape_pod": "Mundane Potion Filled Vape Pod",
+      "item.vapeaholic.blue_fire_resistance_filled_vape": "Blue Vape",
+      "item.vapeaholic.purple_fire_resistance_filled_vape": "Purple Vape",
+      "item.vapeaholic.yellow_jump_boost_filled_vape": "Yellow Vape",
+      "item.vapeaholic.white_invisibility_filled_vape": "White Vape",
+      "item.vapeaholic.light_blue_fire_resistance_filled_vape": "Light Blue Vape",
+      "item.vapeaholic.magenta_jump_boost_filled_vape": "Magenta Vape",
+      "item.vapeaholic.brown_invisibility_filled_vape": "Brown Vape",
+      "item.vapeaholic.red_jump_boost_filled_vape": "Red Vape",
+      "item.vapeaholic.lime_jump_boost_filled_vape": "Lime Vape",
+      "item.vapeaholic.vape_pod_of_jump_boost": "Vape Pod Of Leaping",
+      "item.vapeaholic.blue_jump_boost_filled_vape": "Blue Vape",
+      "item_group.vapeaholic.vape_components": "Vape Components",
+      "item.vapeaholic.purple_water_filled_vape": "Purple Vape",
+      "item_group.vapeaholic.vape_pods": "Vape Pods",
+      "item.vapeaholic.vape_pod_of_invisibility": "Vape Pod Of Invisibility",
+      "item.vapeaholic.green_invisibility_filled_vape": "Green Vape",
+      "item.vapeaholic.black_water_filled_vape": "Black Vape",
+      "item.vapeaholic.light_gray_jump_boost_filled_vape": "Light Gray Vape",
+      "item.vapeaholic.lime_invisibility_filled_vape": "Lime Vape",
+      "item.vapeaholic.green_fire_resistance_filled_vape": "Green Vape",
+      "item.vapeaholic.vape_pod_of_slowness": "Vape Pod Of Slowness",
+      "item.vapeaholic.blue_night_vision_filled_vape": "Blue Vape",
+      "item.vapeaholic.black_night_vision_filled_vape": "Black Vape",
+      "item.vapeaholic.lime_night_vision_filled_vape": "Lime Vape",
+      "item.vapeaholic.gray_night_vision_filled_vape": "Gray Vape",
+      "item.vapeaholic.brown_vape": "Brown Vape",
+      "item.vapeaholic.gray_invisibility_filled_vape": "Gray Vape",
+      "item.vapeaholic.magenta_invisibility_filled_vape": "Magenta Vape",
+      "item.vapeaholic.yellow_fire_resistance_filled_vape": "Yellow Vape",
+      "item.vapeaholic.green_night_vision_filled_vape": "Green Vape",
+      "item.vapeaholic.white_vape": "White Vape",
+      "item.vapeaholic.white_water_filled_vape": "White Vape",
+      "item.vapeaholic.lime_vape": "Lime Vape",
+      "item.vapeaholic.orange_night_vision_filled_vape": "Orange Vape",
+      "item.vapeaholic.yellow_vape": "Yellow Vape",
+      "item.vapeaholic.orange_invisibility_filled_vape": "Orange Vape",
+      "item.vapeaholic.black_vape": "Black Vape",
+      "item.vapeaholic.pink_jump_boost_filled_vape": "Pink Vape",
+      "item.vapeaholic.vape_pod_of_fire_resistance": "Vape Pod Of Fire Resistance",
+      "item.vapeaholic.light_gray_night_vision_filled_vape": "Light Gray Vape",
+      "item.vapeaholic.cyan_fire_resistance_filled_vape": "Cyan Vape",
+      "item.vapeaholic.brown_jump_boost_filled_vape": "Brown Vape",
+      "item.vapeaholic.orange_fire_resistance_filled_vape": "Orange Vape",
+      "item.vapeaholic.green_water_filled_vape": "Green Vape",
+      "item.vapeaholic.green_jump_boost_filled_vape": "Green Vape",
+      "item.vapeaholic.light_gray_invisibility_filled_vape": "Light Gray Vape",
+      "item.vapeaholic.gray_jump_boost_filled_vape": "Gray Vape",
+      "item.vapeaholic.green_vape": "Green Vape",
+      "item.vapeaholic.black_fire_resistance_filled_vape": "Black Vape",
+      "item_group.vapeaholic.vapes": "Vapes",
+      "item.vapeaholic.blue_invisibility_filled_vape": "Blue Vape",
+      "item.vapeaholic.grayvape": "Gray Vape",
+      "item.vapeaholic.blue_vape": "Blue Vape",
+      "item.vapeaholic.light_blue_jump_boost_filled_vape": "Light Blue Vape",
+      "item.vapeaholic.brown_fire_resistance_filled_vape": "Brown Vape",
+      "item.vapeaholic.coil": "Coil",
+      "item.vapeaholic.cyan_vape": "Cyan Vape",
+      "item.vapeaholic.cyan_water_filled_vape": "Cyan Vape",
+      "item.vapeaholic.red_invisibility_filled_vape": "Red Vape",
+      "item.vapeaholic.purple_invisibility_filled_vape": "Purple Vape",
+      "item.vapeaholic.lime_water_filled_vape": "Lime Vape",
+      "item.vapeaholic.purple_jump_boost_filled_vape": "Purple Vape",
+      "item.vapeaholic.vape_pod_of_swiftness": "Vape Pod Of Swiftness",
+      "item.vapeaholic.battery": "Battery",
+      "item.vapeaholic.red_fire_resistance_filled_vape": "Red Vape",
+      "item.vapeaholic.pink_water_filled_vape": "Pink Vape",
+      "item.vapeaholic.white_jump_boost_filled_vape": "White Vape",
+      "item.vapeaholic.vape_pod_of_the_turtle_master": "Vape Pod Of The Turtle Master"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Vapes",
+        "children": [
+          {
+            "name": "BaseCrafting ",
+            "children": [
+              {
+                "name": "colorcrafting",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "WaterFilledVapes",
+            "children": [
+              {
+                "name": "WaterCrafting",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "procedures",
+            "children": []
+          },
+          {
+            "name": "NightVisionFilledVapes",
+            "children": [
+              {
+                "name": "crafting",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Crafting",
+            "children": []
+          },
+          {
+            "name": "BaseVapes",
+            "children": []
+          },
+          {
+            "name": "InvisibilityFilledVapes",
+            "children": [
+              {
+                "name": "InvisibilityCrafting",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "JumpBoostFilledVapes",
+            "children": [
+              {
+                "name": "JumpBoostCrafting",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "FireResistanceFilledVapes",
+            "children": [
+              {
+                "name": "FireResistanceCrafting",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vape Pods",
+        "children": [
+          {
+            "name": "brewing",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Vape Components",
+        "children": []
+      },
+      {
+        "name": "Particles",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "vapeaholic",
+    "modName": "Vapeaholic",
+    "version": "1.0.0",
+    "author": "noahm, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.vapeaholic",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

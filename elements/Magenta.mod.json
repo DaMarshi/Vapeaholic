@@ -1,0 +1,34 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:MagentaWaterFilledVape"
+      },
+      {
+        "value": "CUSTOM:MagentaVape"
+      },
+      {
+        "value": "CUSTOM:MagentaNightVisionFilledVape"
+      },
+      {
+        "value": "CUSTOM:MagentaInvisibilityFilledVape"
+      },
+      {
+        "value": "CUSTOM:MagentaJumpBoostFilledVape"
+      },
+      {
+        "value": "CUSTOM:MagentaFireResistanceFilledVape"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "magenta",
+    "namespace": "mod"
+  }
+}

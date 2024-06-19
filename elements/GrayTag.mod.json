@@ -1,0 +1,34 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Gray"
+      },
+      {
+        "value": "CUSTOM:GrayNightVisionFilledVape"
+      },
+      {
+        "value": "CUSTOM:GrayWaterFilledVape"
+      },
+      {
+        "value": "CUSTOM:GrayInvisibilityFilledVape"
+      },
+      {
+        "value": "CUSTOM:GrayJumpBoostFilledVape"
+      },
+      {
+        "value": "CUSTOM:GrayFireResistanceFilledVape"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "gray_tag",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LightBlueWaterFilledVape"
+      },
+      {
+        "value": "CUSTOM:LightBlueNightVisionFilledVape"
+      },
+      {
+        "value": "CUSTOM:LightBlueVape"
+      },
+      {
+        "value": "CUSTOM:LightBlueInvisibilityFilledVape"
+      },
+      {
+        "value": "CUSTOM:LightBlueJumpBoostFilledVape"
+      },
+      {
+        "value": "CUSTOM:LightBlueFireResistanceFilledVape"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "light_blue",
+    "namespace": "mod"
+  }
+}

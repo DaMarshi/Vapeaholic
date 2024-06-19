@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "vape",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "vapeaholic:purple"
+    },
+    {
+      "item": "vapeaholic:vape_pod_of_invisibility"
+    }
+  ],
+  "result": {
+    "item": "vapeaholic:purple_invisibility_filled_vape",
+    "count": 1
+  }
+}

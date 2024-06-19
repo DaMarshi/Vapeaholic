@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "vape",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "vapeaholic:purple"
+    },
+    {
+      "item": "vapeaholic:vape_pod_of_fire_resistance"
+    }
+  ],
+  "result": {
+    "item": "vapeaholic:purple_fire_resistance_filled_vape",
+    "count": 1
+  }
+}

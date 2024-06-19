@@ -1,0 +1,34 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:PinkWaterFilledVape"
+      },
+      {
+        "value": "CUSTOM:PinkNightVisionFilledVape"
+      },
+      {
+        "value": "CUSTOM:PinkVape"
+      },
+      {
+        "value": "CUSTOM:PinkInvisibilityFilledVape"
+      },
+      {
+        "value": "CUSTOM:PinkJumpBoostFilledVape"
+      },
+      {
+        "value": "CUSTOM:PinkFireResistanceFilledVape"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "pink",
+    "namespace": "mod"
+  }
+}

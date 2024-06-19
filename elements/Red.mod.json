@@ -1,0 +1,34 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:RedVape"
+      },
+      {
+        "value": "CUSTOM:RedInvisibilityFilledVape"
+      },
+      {
+        "value": "CUSTOM:RedNightVisionFilledVape"
+      },
+      {
+        "value": "CUSTOM:RedWaterFilledVape"
+      },
+      {
+        "value": "CUSTOM:RedJumpBoostFilledVape"
+      },
+      {
+        "value": "CUSTOM:RedFireResistanceFilledVape"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "red",
+    "namespace": "mod"
+  }
+}

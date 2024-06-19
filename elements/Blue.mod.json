@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:BlueWaterFilledVape"
+      },
+      {
+        "value": "CUSTOM:BlueNightVisionFilledVape"
+      },
+      {
+        "value": "CUSTOM:BlueVape"
+      },
+      {
+        "value": "CUSTOM:BlueInvisibilityFilledVape"
+      },
+      {
+        "value": "CUSTOM:BlueJumpBoostFilledVape"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "blue",
+    "namespace": "mod"
+  }
+}

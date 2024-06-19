@@ -1,0 +1,34 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:BlackVape"
+      },
+      {
+        "value": "CUSTOM:BlackWaterFilledVape"
+      },
+      {
+        "value": "CUSTOM:BlackNightVisionFilledVape"
+      },
+      {
+        "value": "CUSTOM:BlackInvisibilityFilledVape"
+      },
+      {
+        "value": "CUSTOM:BlackJumpBoostFilledVape"
+      },
+      {
+        "value": "CUSTOM:BlackFireResistanceFilledVape"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "black",
+    "namespace": "mod"
+  }
+}

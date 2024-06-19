@@ -1,0 +1,34 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LimeVape"
+      },
+      {
+        "value": "CUSTOM:LimeNightVisionFilledVape"
+      },
+      {
+        "value": "CUSTOM:LimeWaterFilledVape"
+      },
+      {
+        "value": "CUSTOM:LimeInvisibilityFilledVape"
+      },
+      {
+        "value": "CUSTOM:LimeJumpBoostFilledVape"
+      },
+      {
+        "value": "CUSTOM:LimeFireResistanceFilledVape"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "lime",
+    "namespace": "mod"
+  }
+}

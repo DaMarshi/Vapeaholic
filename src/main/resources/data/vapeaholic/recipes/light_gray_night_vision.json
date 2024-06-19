@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "vape",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "vapeaholic:light_gray"
+    },
+    {
+      "item": "vapeaholic:vape_pod_of_night_vision"
+    }
+  ],
+  "result": {
+    "item": "vapeaholic:light_gray_night_vision_filled_vape",
+    "count": 1
+  }
+}
