@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "pod",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EmptyVapePod"
+      },
+      {
+        "value": "CUSTOM:EmptyVapePod"
+      },
+      {
+        "value": "CUSTOM:EmptyVapePod"
+      },
+      {
+        "value": "CUSTOM:EmptyVapePod"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "CUSTOM:EmptyVapePod"
+      },
+      {
+        "value": "CUSTOM:EmptyVapePod"
+      },
+      {
+        "value": "CUSTOM:EmptyVapePod"
+      },
+      {
+        "value": "CUSTOM:EmptyVapePod"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WaterFilledVapePod"
+    },
+    "name": "fill_water_pod",
+    "namespace": "mod"
+  }
+}

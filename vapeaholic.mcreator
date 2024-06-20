@@ -3,7 +3,7 @@
     {
       "name": "VapeRightclicked",
       "type": "procedure",
-      "sortid": 92,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vape_rightclicked",
@@ -23,7 +23,7 @@
     {
       "name": "RedVape",
       "type": "item",
-      "sortid": 14,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_vape",
@@ -53,7 +53,7 @@
     {
       "name": "Vapes",
       "type": "tab",
-      "sortid": 93,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vapes",
@@ -64,7 +64,7 @@
     {
       "name": "VapePods",
       "type": "tab",
-      "sortid": 94,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vape_pods",
@@ -75,7 +75,7 @@
     {
       "name": "Battery",
       "type": "item",
-      "sortid": 89,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "battery",
@@ -90,7 +90,7 @@
     {
       "name": "VapeComponents",
       "type": "tab",
-      "sortid": 95,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vape_components",
@@ -146,7 +146,7 @@
     {
       "name": "RedNightVisionFilledVape",
       "type": "item",
-      "sortid": 46,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_night_vision_filled_vape",
@@ -161,7 +161,7 @@
     {
       "name": "RedWaterFilledVape",
       "type": "item",
-      "sortid": 30,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_water_filled_vape",
@@ -176,7 +176,7 @@
     {
       "name": "NightVisionPuff",
       "type": "particle",
-      "sortid": 96,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "night_vision_puff",
@@ -191,7 +191,7 @@
     {
       "name": "WaterPuff",
       "type": "particle",
-      "sortid": 97,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "water_puff",
@@ -206,7 +206,7 @@
     {
       "name": "RedWaterFilledVapeRightclicked",
       "type": "procedure",
-      "sortid": 98,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "water_filled_vape_rightclicked",
@@ -246,7 +246,7 @@
     {
       "name": "RedWater",
       "type": "recipe",
-      "sortid": 99,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_water",
@@ -260,7 +260,7 @@
     {
       "name": "NightVisionFilledVapeRightclicked",
       "type": "procedure",
-      "sortid": 100,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "night_vision_filled_vape_rightclicked",
@@ -300,7 +300,7 @@
     {
       "name": "Coil",
       "type": "item",
-      "sortid": 90,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coil",
@@ -315,7 +315,7 @@
     {
       "name": "Mouthpiece",
       "type": "item",
-      "sortid": 91,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouthpiece",
@@ -330,7 +330,7 @@
     {
       "name": "WhiteWaterFilledVape",
       "type": "item",
-      "sortid": 25,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_water_filled_vape",
@@ -345,7 +345,7 @@
     {
       "name": "WhiteVape",
       "type": "item",
-      "sortid": 9,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_vape",
@@ -360,7 +360,7 @@
     {
       "name": "WhiteVapeCraft",
       "type": "recipe",
-      "sortid": 101,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_vape_craft",
@@ -374,7 +374,7 @@
     {
       "name": "WhiteNightVisionFilledVape",
       "type": "item",
-      "sortid": 41,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_night_vision_filled_vape",
@@ -389,7 +389,7 @@
     {
       "name": "RedInvisibilityFilledVape",
       "type": "item",
-      "sortid": 62,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_invisibility_filled_vape",
@@ -404,7 +404,7 @@
     {
       "name": "InvisibilityFilledVapeRightclicked",
       "type": "procedure",
-      "sortid": 102,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "invisibility_filled_vape_rightclicked",
@@ -444,7 +444,7 @@
     {
       "name": "OrangeWaterFilledVape",
       "type": "item",
-      "sortid": 31,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_water_filled_vape",
@@ -459,7 +459,7 @@
     {
       "name": "YellowWaterFilledVape",
       "type": "item",
-      "sortid": 32,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_water_filled_vape",
@@ -474,7 +474,7 @@
     {
       "name": "BlackWaterFilledVape",
       "type": "item",
-      "sortid": 28,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_water_filled_vape",
@@ -489,7 +489,7 @@
     {
       "name": "LightGrayWaterFilledVape",
       "type": "item",
-      "sortid": 26,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_water_filled_vape",
@@ -504,7 +504,7 @@
     {
       "name": "GrayWaterFilledVape",
       "type": "item",
-      "sortid": 27,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_water_filled_vape",
@@ -519,7 +519,7 @@
     {
       "name": "BrownWaterFilledVape",
       "type": "item",
-      "sortid": 29,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_water_filled_vape",
@@ -534,7 +534,7 @@
     {
       "name": "PinkWaterFilledVape",
       "type": "item",
-      "sortid": 40,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_water_filled_vape",
@@ -549,7 +549,7 @@
     {
       "name": "MagentaWaterFilledVape",
       "type": "item",
-      "sortid": 39,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_water_filled_vape",
@@ -564,7 +564,7 @@
     {
       "name": "PurpleWaterFilledVape",
       "type": "item",
-      "sortid": 38,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_water_filled_vape",
@@ -579,7 +579,7 @@
     {
       "name": "BlueWaterFilledVape",
       "type": "item",
-      "sortid": 37,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_water_filled_vape",
@@ -594,7 +594,7 @@
     {
       "name": "LightBlueWaterFilledVape",
       "type": "item",
-      "sortid": 36,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_water_filled_vape",
@@ -609,7 +609,7 @@
     {
       "name": "CyanWaterFilledVape",
       "type": "item",
-      "sortid": 35,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_water_filled_vape",
@@ -624,7 +624,7 @@
     {
       "name": "GreenWaterFilledVape",
       "type": "item",
-      "sortid": 34,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_water_filled_vape",
@@ -639,7 +639,7 @@
     {
       "name": "LimeWaterFilledVape",
       "type": "item",
-      "sortid": 33,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_water_filled_vape",
@@ -654,7 +654,7 @@
     {
       "name": "BlackNightVisionFilledVape",
       "type": "item",
-      "sortid": 44,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_night_vision_filled_vape",
@@ -669,7 +669,7 @@
     {
       "name": "LightGrayNightVisionFilledVape",
       "type": "item",
-      "sortid": 42,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_night_vision_filled_vape",
@@ -684,7 +684,7 @@
     {
       "name": "GrayNightVisionFilledVape",
       "type": "item",
-      "sortid": 43,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_night_vision_filled_vape",
@@ -699,7 +699,7 @@
     {
       "name": "BrownNightVisionFilledVape",
       "type": "item",
-      "sortid": 45,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_night_vision_filled_vape",
@@ -714,7 +714,7 @@
     {
       "name": "PinkNightVisionFilledVape",
       "type": "item",
-      "sortid": 56,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_night_vision_filled_vape",
@@ -729,7 +729,7 @@
     {
       "name": "MagentaNightVisionFilledVape",
       "type": "item",
-      "sortid": 55,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_night_vision_filled_vape",
@@ -744,7 +744,7 @@
     {
       "name": "PurpleNightVisionFilledVape",
       "type": "item",
-      "sortid": 54,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_night_vision_filled_vape",
@@ -759,7 +759,7 @@
     {
       "name": "BlueNightVisionFilledVape",
       "type": "item",
-      "sortid": 53,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_night_vision_filled_vape",
@@ -774,7 +774,7 @@
     {
       "name": "LightBlueNightVisionFilledVape",
       "type": "item",
-      "sortid": 52,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_night_vision_filled_vape",
@@ -789,7 +789,7 @@
     {
       "name": "CyanNightVisionFilledVape",
       "type": "item",
-      "sortid": 51,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_night_vision_filled_vape",
@@ -804,7 +804,7 @@
     {
       "name": "GreenNightVisionFilledVape",
       "type": "item",
-      "sortid": 50,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_night_vision_filled_vape",
@@ -819,7 +819,7 @@
     {
       "name": "LimeNightVisionFilledVape",
       "type": "item",
-      "sortid": 49,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_night_vision_filled_vape",
@@ -834,7 +834,7 @@
     {
       "name": "YellowNightVisionFilledVape",
       "type": "item",
-      "sortid": 48,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_night_vision_filled_vape",
@@ -849,7 +849,7 @@
     {
       "name": "OrangeNightVisionFilledVape",
       "type": "item",
-      "sortid": 47,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_night_vision_filled_vape",
@@ -864,7 +864,7 @@
     {
       "name": "OrangeWater",
       "type": "recipe",
-      "sortid": 103,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_water",
@@ -878,7 +878,7 @@
     {
       "name": "BlackVape",
       "type": "item",
-      "sortid": 12,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_vape",
@@ -893,7 +893,7 @@
     {
       "name": "LightGrayVape",
       "type": "item",
-      "sortid": 10,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_vape",
@@ -908,7 +908,7 @@
     {
       "name": "Gray",
       "type": "item",
-      "sortid": 11,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grayvape",
@@ -923,7 +923,7 @@
     {
       "name": "BrownVape",
       "type": "item",
-      "sortid": 13,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_vape",
@@ -938,7 +938,7 @@
     {
       "name": "PinkVape",
       "type": "item",
-      "sortid": 24,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_vape",
@@ -953,7 +953,7 @@
     {
       "name": "MagentaVape",
       "type": "item",
-      "sortid": 23,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_vape",
@@ -968,7 +968,7 @@
     {
       "name": "PurpleVape",
       "type": "item",
-      "sortid": 22,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_vape",
@@ -983,7 +983,7 @@
     {
       "name": "BlueVape",
       "type": "item",
-      "sortid": 21,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_vape",
@@ -998,7 +998,7 @@
     {
       "name": "LightBlueVape",
       "type": "item",
-      "sortid": 20,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_vape",
@@ -1013,7 +1013,7 @@
     {
       "name": "CyanVape",
       "type": "item",
-      "sortid": 19,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_vape",
@@ -1028,7 +1028,7 @@
     {
       "name": "GreenVape",
       "type": "item",
-      "sortid": 18,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_vape",
@@ -1043,7 +1043,7 @@
     {
       "name": "LimeVape",
       "type": "item",
-      "sortid": 17,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_vape",
@@ -1058,7 +1058,7 @@
     {
       "name": "YellowVape",
       "type": "item",
-      "sortid": 16,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_vape",
@@ -1073,7 +1073,7 @@
     {
       "name": "OrangeVape",
       "type": "item",
-      "sortid": 15,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_vape",
@@ -1088,7 +1088,7 @@
     {
       "name": "LightGray",
       "type": "tag",
-      "sortid": 104,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray",
@@ -1102,7 +1102,7 @@
     {
       "name": "WhiteTag",
       "type": "tag",
-      "sortid": 105,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_tag",
@@ -1116,7 +1116,7 @@
     {
       "name": "GrayTag",
       "type": "tag",
-      "sortid": 106,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_tag",
@@ -1130,7 +1130,7 @@
     {
       "name": "Black",
       "type": "tag",
-      "sortid": 107,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black",
@@ -1144,7 +1144,7 @@
     {
       "name": "Brown",
       "type": "tag",
-      "sortid": 108,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown",
@@ -1158,7 +1158,7 @@
     {
       "name": "Red",
       "type": "tag",
-      "sortid": 109,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red",
@@ -1172,7 +1172,7 @@
     {
       "name": "Orange",
       "type": "tag",
-      "sortid": 110,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange",
@@ -1186,7 +1186,7 @@
     {
       "name": "Yellow",
       "type": "tag",
-      "sortid": 111,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow",
@@ -1200,7 +1200,7 @@
     {
       "name": "Lime",
       "type": "tag",
-      "sortid": 112,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime",
@@ -1214,7 +1214,7 @@
     {
       "name": "Green",
       "type": "tag",
-      "sortid": 113,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green",
@@ -1228,7 +1228,7 @@
     {
       "name": "Cyan",
       "type": "tag",
-      "sortid": 114,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan",
@@ -1242,7 +1242,7 @@
     {
       "name": "LightBlue",
       "type": "tag",
-      "sortid": 115,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue",
@@ -1256,7 +1256,7 @@
     {
       "name": "Blue",
       "type": "tag",
-      "sortid": 116,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue",
@@ -1270,7 +1270,7 @@
     {
       "name": "Purple",
       "type": "tag",
-      "sortid": 117,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple",
@@ -1284,7 +1284,7 @@
     {
       "name": "Magenta",
       "type": "tag",
-      "sortid": 118,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta",
@@ -1298,7 +1298,7 @@
     {
       "name": "Pink",
       "type": "tag",
-      "sortid": 119,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink",
@@ -1312,7 +1312,7 @@
     {
       "name": "WhiteInvisibilityFilledVape",
       "type": "item",
-      "sortid": 57,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_invisibility_filled_vape",
@@ -1327,7 +1327,7 @@
     {
       "name": "LightGrayInvisibilityFilledVape",
       "type": "item",
-      "sortid": 58,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_invisibility_filled_vape",
@@ -1342,7 +1342,7 @@
     {
       "name": "GrayInvisibilityFilledVape",
       "type": "item",
-      "sortid": 59,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_invisibility_filled_vape",
@@ -1357,7 +1357,7 @@
     {
       "name": "BlackInvisibilityFilledVape",
       "type": "item",
-      "sortid": 60,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_invisibility_filled_vape",
@@ -1372,7 +1372,7 @@
     {
       "name": "BrownInvisibilityFilledVape",
       "type": "item",
-      "sortid": 61,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_invisibility_filled_vape",
@@ -1387,7 +1387,7 @@
     {
       "name": "OrangeInvisibilityFilledVape",
       "type": "item",
-      "sortid": 63,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_invisibility_filled_vape",
@@ -1402,7 +1402,7 @@
     {
       "name": "YellowInvisibilityFilledVape",
       "type": "item",
-      "sortid": 64,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_invisibility_filled_vape",
@@ -1417,7 +1417,7 @@
     {
       "name": "LimeInvisibilityFilledVape",
       "type": "item",
-      "sortid": 65,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_invisibility_filled_vape",
@@ -1432,7 +1432,7 @@
     {
       "name": "GreenInvisibilityFilledVape",
       "type": "item",
-      "sortid": 66,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_invisibility_filled_vape",
@@ -1447,7 +1447,7 @@
     {
       "name": "CyanInvisibilityFilledVape",
       "type": "item",
-      "sortid": 67,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_invisibility_filled_vape",
@@ -1462,7 +1462,7 @@
     {
       "name": "LightBlueInvisibilityFilledVape",
       "type": "item",
-      "sortid": 68,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_invisibility_filled_vape",
@@ -1477,7 +1477,7 @@
     {
       "name": "BlueInvisibilityFilledVape",
       "type": "item",
-      "sortid": 69,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_invisibility_filled_vape",
@@ -1492,7 +1492,7 @@
     {
       "name": "PurpleInvisibilityFilledVape",
       "type": "item",
-      "sortid": 70,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_invisibility_filled_vape",
@@ -1507,7 +1507,7 @@
     {
       "name": "MagentaInvisibilityFilledVape",
       "type": "item",
-      "sortid": 71,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_invisibility_filled_vape",
@@ -1522,7 +1522,7 @@
     {
       "name": "PinkInvisibilityFilledVape",
       "type": "item",
-      "sortid": 72,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_invisibility_filled_vape",
@@ -1537,7 +1537,7 @@
     {
       "name": "JumpBoostPuff",
       "type": "particle",
-      "sortid": 120,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jump_boost_puff",
@@ -1552,7 +1552,7 @@
     {
       "name": "WhiteJumpBoostFilledVape",
       "type": "item",
-      "sortid": 73,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_jump_boost_filled_vape",
@@ -1567,7 +1567,7 @@
     {
       "name": "JumpBoostFilledVapeRightclicked",
       "type": "procedure",
-      "sortid": 121,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jump_boost_filled_vape_rightclicked",
@@ -1607,7 +1607,7 @@
     {
       "name": "LightGrayJumpBoostFilledVape",
       "type": "item",
-      "sortid": 74,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_jump_boost_filled_vape",
@@ -1622,7 +1622,7 @@
     {
       "name": "GrayJumpBoostFilledVape",
       "type": "item",
-      "sortid": 75,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_jump_boost_filled_vape",
@@ -1637,7 +1637,7 @@
     {
       "name": "BlackJumpBoostFilledVape",
       "type": "item",
-      "sortid": 76,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_jump_boost_filled_vape",
@@ -1652,7 +1652,7 @@
     {
       "name": "BrownJumpBoostFilledVape",
       "type": "item",
-      "sortid": 77,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_jump_boost_filled_vape",
@@ -1667,7 +1667,7 @@
     {
       "name": "RedJumpBoostFilledVape",
       "type": "item",
-      "sortid": 78,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_jump_boost_filled_vape",
@@ -1682,7 +1682,7 @@
     {
       "name": "OrangeJumpBoostFilledVape",
       "type": "item",
-      "sortid": 79,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_jump_boost_filled_vape",
@@ -1697,7 +1697,7 @@
     {
       "name": "YellowJumpBoostFilledVape",
       "type": "item",
-      "sortid": 80,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_jump_boost_filled_vape",
@@ -1712,7 +1712,7 @@
     {
       "name": "LimeJumpBoostFilledVape",
       "type": "item",
-      "sortid": 81,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_jump_boost_filled_vape",
@@ -1727,7 +1727,7 @@
     {
       "name": "GreenJumpBoostFilledVape",
       "type": "item",
-      "sortid": 82,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_jump_boost_filled_vape",
@@ -1742,7 +1742,7 @@
     {
       "name": "CyanJumpBoostFilledVape",
       "type": "item",
-      "sortid": 83,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_jump_boost_filled_vape",
@@ -1757,7 +1757,7 @@
     {
       "name": "LightBlueJumpBoostFilledVape",
       "type": "item",
-      "sortid": 84,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_jump_boost_filled_vape",
@@ -1772,7 +1772,7 @@
     {
       "name": "BlueJumpBoostFilledVape",
       "type": "item",
-      "sortid": 85,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_jump_boost_filled_vape",
@@ -1787,7 +1787,7 @@
     {
       "name": "PurpleJumpBoostFilledVape",
       "type": "item",
-      "sortid": 86,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_jump_boost_filled_vape",
@@ -1802,7 +1802,7 @@
     {
       "name": "MagentaJumpBoostFilledVape",
       "type": "item",
-      "sortid": 87,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_jump_boost_filled_vape",
@@ -1817,7 +1817,7 @@
     {
       "name": "PinkJumpBoostFilledVape",
       "type": "item",
-      "sortid": 88,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_jump_boost_filled_vape",
@@ -1832,7 +1832,7 @@
     {
       "name": "YellowWater",
       "type": "recipe",
-      "sortid": 122,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_water",
@@ -1846,7 +1846,7 @@
     {
       "name": "LimeWater",
       "type": "recipe",
-      "sortid": 123,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_water",
@@ -1860,7 +1860,7 @@
     {
       "name": "GreenWater",
       "type": "recipe",
-      "sortid": 124,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_water",
@@ -1874,7 +1874,7 @@
     {
       "name": "CyanWater",
       "type": "recipe",
-      "sortid": 125,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_water",
@@ -1888,7 +1888,7 @@
     {
       "name": "LightBlueWater",
       "type": "recipe",
-      "sortid": 126,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_water",
@@ -1902,7 +1902,7 @@
     {
       "name": "BlueWater",
       "type": "recipe",
-      "sortid": 127,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_water",
@@ -1916,7 +1916,7 @@
     {
       "name": "PurpleWater",
       "type": "recipe",
-      "sortid": 128,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_water",
@@ -1930,7 +1930,7 @@
     {
       "name": "MagentaWater",
       "type": "recipe",
-      "sortid": 129,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_water",
@@ -1944,7 +1944,7 @@
     {
       "name": "PinkWater",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_water",
@@ -1958,7 +1958,7 @@
     {
       "name": "WhiteWater",
       "type": "recipe",
-      "sortid": 131,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_water",
@@ -1972,7 +1972,7 @@
     {
       "name": "LightGrayWater",
       "type": "recipe",
-      "sortid": 132,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_water",
@@ -1986,7 +1986,7 @@
     {
       "name": "GrayWater",
       "type": "recipe",
-      "sortid": 133,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_water",
@@ -2000,7 +2000,7 @@
     {
       "name": "BlackWater",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_water",
@@ -2014,7 +2014,7 @@
     {
       "name": "BrownWater",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_water",
@@ -2043,7 +2043,7 @@
     {
       "name": "WhiteNightVision",
       "type": "recipe",
-      "sortid": 136,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_night_vision",
@@ -2057,7 +2057,7 @@
     {
       "name": "LightGrayNightVision",
       "type": "recipe",
-      "sortid": 137,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_night_vision",
@@ -2071,7 +2071,7 @@
     {
       "name": "GrayNightVision",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_night_vision",
@@ -2085,7 +2085,7 @@
     {
       "name": "BlackNightVision",
       "type": "recipe",
-      "sortid": 139,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_night_vision",
@@ -2099,7 +2099,7 @@
     {
       "name": "BrownNightVision",
       "type": "recipe",
-      "sortid": 140,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_night_vision",
@@ -2113,7 +2113,7 @@
     {
       "name": "RedNightVision",
       "type": "recipe",
-      "sortid": 141,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_night_vision",
@@ -2127,7 +2127,7 @@
     {
       "name": "OrangeNightVision",
       "type": "recipe",
-      "sortid": 142,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_night_vision",
@@ -2141,7 +2141,7 @@
     {
       "name": "YellowNightVision",
       "type": "recipe",
-      "sortid": 143,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_night_vision",
@@ -2155,7 +2155,7 @@
     {
       "name": "LimeNightVision",
       "type": "recipe",
-      "sortid": 144,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_night_vision",
@@ -2169,7 +2169,7 @@
     {
       "name": "GreenNightVision",
       "type": "recipe",
-      "sortid": 145,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_night_vision",
@@ -2183,7 +2183,7 @@
     {
       "name": "CyanNightVision",
       "type": "recipe",
-      "sortid": 146,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_night_vision",
@@ -2197,7 +2197,7 @@
     {
       "name": "LightBlueNightVision",
       "type": "recipe",
-      "sortid": 147,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_night_vision",
@@ -2211,7 +2211,7 @@
     {
       "name": "BlueNightVision",
       "type": "recipe",
-      "sortid": 148,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_night_vision",
@@ -2225,7 +2225,7 @@
     {
       "name": "PurpleNightVision",
       "type": "recipe",
-      "sortid": 149,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_night_vision",
@@ -2239,7 +2239,7 @@
     {
       "name": "MagentaNightVision",
       "type": "recipe",
-      "sortid": 150,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_night_vision",
@@ -2253,7 +2253,7 @@
     {
       "name": "PinkNightVision",
       "type": "recipe",
-      "sortid": 151,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_night_vision",
@@ -2267,7 +2267,7 @@
     {
       "name": "LightGrayColor1",
       "type": "recipe",
-      "sortid": 152,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_color_1",
@@ -2281,7 +2281,7 @@
     {
       "name": "LightGrayColor2",
       "type": "recipe",
-      "sortid": 153,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_color_2",
@@ -2295,7 +2295,7 @@
     {
       "name": "LightGrayColor3",
       "type": "recipe",
-      "sortid": 154,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_color_3",
@@ -2309,7 +2309,7 @@
     {
       "name": "GrayColor1",
       "type": "recipe",
-      "sortid": 155,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_color_1",
@@ -2323,7 +2323,7 @@
     {
       "name": "GrayColor2",
       "type": "recipe",
-      "sortid": 156,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_color_2",
@@ -2337,7 +2337,7 @@
     {
       "name": "BlackColor1",
       "type": "recipe",
-      "sortid": 157,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_color_1",
@@ -2351,7 +2351,7 @@
     {
       "name": "BrownColor1",
       "type": "recipe",
-      "sortid": 158,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_color_1",
@@ -2365,7 +2365,7 @@
     {
       "name": "RedColor1",
       "type": "recipe",
-      "sortid": 159,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_color_1",
@@ -2379,7 +2379,7 @@
     {
       "name": "OrangeColor1",
       "type": "recipe",
-      "sortid": 160,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_color_1",
@@ -2393,7 +2393,7 @@
     {
       "name": "OrangeColor2",
       "type": "recipe",
-      "sortid": 161,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_color_2",
@@ -2407,7 +2407,7 @@
     {
       "name": "OrangeColor3",
       "type": "recipe",
-      "sortid": 162,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_color_3",
@@ -2421,7 +2421,7 @@
     {
       "name": "OrangeColor4",
       "type": "recipe",
-      "sortid": 163,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_color_4",
@@ -2435,7 +2435,7 @@
     {
       "name": "LightGrayColor4",
       "type": "recipe",
-      "sortid": 164,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_color_4",
@@ -2449,7 +2449,7 @@
     {
       "name": "YellowColor1",
       "type": "recipe",
-      "sortid": 165,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_color_1",
@@ -2463,7 +2463,7 @@
     {
       "name": "LimeColor1",
       "type": "recipe",
-      "sortid": 166,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_color_1",
@@ -2477,7 +2477,7 @@
     {
       "name": "LimeColor2",
       "type": "recipe",
-      "sortid": 167,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_color_2",
@@ -2491,7 +2491,7 @@
     {
       "name": "LimeColor3",
       "type": "recipe",
-      "sortid": 168,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_color_3",
@@ -2505,7 +2505,7 @@
     {
       "name": "GreenColor1",
       "type": "recipe",
-      "sortid": 169,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_color_1",
@@ -2519,7 +2519,7 @@
     {
       "name": "CyanColor1",
       "type": "recipe",
-      "sortid": 170,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_color_1",
@@ -2533,7 +2533,7 @@
     {
       "name": "CyanColor2",
       "type": "recipe",
-      "sortid": 171,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_color_2",
@@ -2547,7 +2547,7 @@
     {
       "name": "CyanColor3",
       "type": "recipe",
-      "sortid": 172,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_color_3",
@@ -2561,7 +2561,7 @@
     {
       "name": "CyanColor4",
       "type": "recipe",
-      "sortid": 173,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_color_4",
@@ -2575,7 +2575,7 @@
     {
       "name": "LightBlueColor1",
       "type": "recipe",
-      "sortid": 174,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_color_1",
@@ -2589,7 +2589,7 @@
     {
       "name": "LightBlueColor2",
       "type": "recipe",
-      "sortid": 175,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_color_2",
@@ -2603,7 +2603,7 @@
     {
       "name": "LightBlueColor3",
       "type": "recipe",
-      "sortid": 176,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_color_3",
@@ -2617,7 +2617,7 @@
     {
       "name": "BlueColor1",
       "type": "recipe",
-      "sortid": 177,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_color_1",
@@ -2631,7 +2631,7 @@
     {
       "name": "PurpleColor1",
       "type": "recipe",
-      "sortid": 178,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_color_1",
@@ -2645,7 +2645,7 @@
     {
       "name": "PurpleColor2",
       "type": "recipe",
-      "sortid": 179,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_color_2",
@@ -2659,7 +2659,7 @@
     {
       "name": "PurpleColor3",
       "type": "recipe",
-      "sortid": 180,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_color_3",
@@ -2673,7 +2673,7 @@
     {
       "name": "PurpleColor4",
       "type": "recipe",
-      "sortid": 181,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_color_4",
@@ -2687,7 +2687,7 @@
     {
       "name": "MagentaColor1",
       "type": "recipe",
-      "sortid": 182,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_color_1",
@@ -2701,7 +2701,7 @@
     {
       "name": "MagentaColor2",
       "type": "recipe",
-      "sortid": 183,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_color_2",
@@ -2715,7 +2715,7 @@
     {
       "name": "MagentaColor3",
       "type": "recipe",
-      "sortid": 184,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_color_3",
@@ -2729,7 +2729,7 @@
     {
       "name": "MagentaColor4",
       "type": "recipe",
-      "sortid": 185,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_color_4",
@@ -2743,7 +2743,7 @@
     {
       "name": "MagentaColor5",
       "type": "recipe",
-      "sortid": 186,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_color_5",
@@ -2757,7 +2757,7 @@
     {
       "name": "MagentaColor6",
       "type": "recipe",
-      "sortid": 187,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_color_6",
@@ -2771,7 +2771,7 @@
     {
       "name": "MagentaColor7",
       "type": "recipe",
-      "sortid": 188,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_color_7",
@@ -2785,7 +2785,7 @@
     {
       "name": "MagentaColor8",
       "type": "recipe",
-      "sortid": 189,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_color_8",
@@ -2799,7 +2799,7 @@
     {
       "name": "MagentaColor9",
       "type": "recipe",
-      "sortid": 190,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_color_9",
@@ -2813,7 +2813,7 @@
     {
       "name": "MagentaColor10",
       "type": "recipe",
-      "sortid": 191,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_color_10",
@@ -2827,7 +2827,7 @@
     {
       "name": "MagentaColor11",
       "type": "recipe",
-      "sortid": 192,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_color_11",
@@ -2841,7 +2841,7 @@
     {
       "name": "PinkColor1",
       "type": "recipe",
-      "sortid": 193,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_color_1",
@@ -2855,7 +2855,7 @@
     {
       "name": "PinkColor2",
       "type": "recipe",
-      "sortid": 194,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_color_2",
@@ -2869,7 +2869,7 @@
     {
       "name": "PinkColor3",
       "type": "recipe",
-      "sortid": 195,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_color_3",
@@ -2883,7 +2883,7 @@
     {
       "name": "WhiteInvisibility",
       "type": "recipe",
-      "sortid": 196,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_invisibility",
@@ -2897,7 +2897,7 @@
     {
       "name": "LightGrayInvisibility",
       "type": "recipe",
-      "sortid": 197,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_invisibility",
@@ -2911,7 +2911,7 @@
     {
       "name": "GrayInvisibility",
       "type": "recipe",
-      "sortid": 198,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_invisibility",
@@ -2925,7 +2925,7 @@
     {
       "name": "BlackInvisibility",
       "type": "recipe",
-      "sortid": 199,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_invisibility",
@@ -2939,7 +2939,7 @@
     {
       "name": "BrownInvisibility",
       "type": "recipe",
-      "sortid": 200,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_invisibility",
@@ -2953,7 +2953,7 @@
     {
       "name": "RedInvisibility",
       "type": "recipe",
-      "sortid": 201,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_invisibility",
@@ -2967,7 +2967,7 @@
     {
       "name": "OrangeInvisibility",
       "type": "recipe",
-      "sortid": 202,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_invisibility",
@@ -2981,7 +2981,7 @@
     {
       "name": "YellowInvisibility",
       "type": "recipe",
-      "sortid": 203,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_invisibility",
@@ -2995,7 +2995,7 @@
     {
       "name": "LimeInvisibility",
       "type": "recipe",
-      "sortid": 204,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_invisibility",
@@ -3009,7 +3009,7 @@
     {
       "name": "GreenInvisibility",
       "type": "recipe",
-      "sortid": 205,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_invisibility",
@@ -3023,7 +3023,7 @@
     {
       "name": "CyanInvisibility",
       "type": "recipe",
-      "sortid": 206,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_invisibility",
@@ -3037,7 +3037,7 @@
     {
       "name": "LightBlueInvisibility",
       "type": "recipe",
-      "sortid": 207,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_invisibility",
@@ -3051,7 +3051,7 @@
     {
       "name": "BlueInvisibility",
       "type": "recipe",
-      "sortid": 208,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_invisibility",
@@ -3065,7 +3065,7 @@
     {
       "name": "PurpleInvisibility",
       "type": "recipe",
-      "sortid": 209,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_invisibility",
@@ -3079,7 +3079,7 @@
     {
       "name": "MagentaInvisibility",
       "type": "recipe",
-      "sortid": 210,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_invisibility",
@@ -3093,7 +3093,7 @@
     {
       "name": "PinkInvisibility",
       "type": "recipe",
-      "sortid": 211,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_invisibility",
@@ -3152,7 +3152,7 @@
     {
       "name": "FireResistancePuff",
       "type": "particle",
-      "sortid": 212,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_resistance_puff",
@@ -3167,7 +3167,7 @@
     {
       "name": "VapePodOfFireResistance",
       "type": "item",
-      "sortid": 213,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vape_pod_of_fire_resistance",
@@ -3182,7 +3182,7 @@
     {
       "name": "VapePodOfSwiftness",
       "type": "item",
-      "sortid": 214,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vape_pod_of_swiftness",
@@ -3197,7 +3197,7 @@
     {
       "name": "SwiftnessPuff",
       "type": "particle",
-      "sortid": 215,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "registry_name": "swiftness_puff",
@@ -3212,7 +3212,7 @@
     {
       "name": "SlownessPuff",
       "type": "particle",
-      "sortid": 216,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "registry_name": "slowness_puff",
@@ -3227,7 +3227,7 @@
     {
       "name": "VapePodOfSlowness",
       "type": "item",
-      "sortid": 217,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vape_pod_of_slowness",
@@ -3242,7 +3242,7 @@
     {
       "name": "WhiteLeaping",
       "type": "recipe",
-      "sortid": 218,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_leaping",
@@ -3256,7 +3256,7 @@
     {
       "name": "LightGrayLeaping",
       "type": "recipe",
-      "sortid": 219,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_leaping",
@@ -3270,7 +3270,7 @@
     {
       "name": "GrayLeaping",
       "type": "recipe",
-      "sortid": 220,
+      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_leaping",
@@ -3284,7 +3284,7 @@
     {
       "name": "BlackLeaping",
       "type": "recipe",
-      "sortid": 221,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_leaping",
@@ -3298,7 +3298,7 @@
     {
       "name": "BrownLeaping",
       "type": "recipe",
-      "sortid": 222,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_leaping",
@@ -3312,7 +3312,7 @@
     {
       "name": "RedLeaping",
       "type": "recipe",
-      "sortid": 223,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_leaping",
@@ -3326,7 +3326,7 @@
     {
       "name": "OrangeLeaping",
       "type": "recipe",
-      "sortid": 224,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_leaping",
@@ -3340,7 +3340,7 @@
     {
       "name": "YellowLeaping",
       "type": "recipe",
-      "sortid": 225,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_leaping",
@@ -3354,7 +3354,7 @@
     {
       "name": "LimeLeaping",
       "type": "recipe",
-      "sortid": 226,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_leaping",
@@ -3368,7 +3368,7 @@
     {
       "name": "GreenLeaping",
       "type": "recipe",
-      "sortid": 227,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_leaping",
@@ -3382,7 +3382,7 @@
     {
       "name": "CyanLeaping",
       "type": "recipe",
-      "sortid": 228,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_leaping",
@@ -3396,7 +3396,7 @@
     {
       "name": "LightBlueLeaping",
       "type": "recipe",
-      "sortid": 229,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_leaping",
@@ -3410,7 +3410,7 @@
     {
       "name": "BlueLeaping",
       "type": "recipe",
-      "sortid": 230,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_leaping",
@@ -3424,7 +3424,7 @@
     {
       "name": "PurpleLeaping",
       "type": "recipe",
-      "sortid": 231,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_leaping",
@@ -3438,7 +3438,7 @@
     {
       "name": "MagentaLeaping",
       "type": "recipe",
-      "sortid": 232,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_leaping",
@@ -3452,7 +3452,7 @@
     {
       "name": "PinkLeaping",
       "type": "recipe",
-      "sortid": 233,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_leaping",
@@ -3466,7 +3466,7 @@
     {
       "name": "TurtleMasterPuff",
       "type": "particle",
-      "sortid": 234,
+      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "registry_name": "turtle_master_puff",
@@ -3481,7 +3481,7 @@
     {
       "name": "VapePodOfTheTurtleMaster",
       "type": "item",
-      "sortid": 235,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vape_pod_of_the_turtle_master",
@@ -3496,7 +3496,7 @@
     {
       "name": "WhiteReset",
       "type": "recipe",
-      "sortid": 236,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_reset",
@@ -3510,7 +3510,7 @@
     {
       "name": "LightGrayReset",
       "type": "recipe",
-      "sortid": 237,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_reset",
@@ -3524,7 +3524,7 @@
     {
       "name": "GrayReset",
       "type": "recipe",
-      "sortid": 238,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_reset",
@@ -3538,7 +3538,7 @@
     {
       "name": "BlackReset",
       "type": "recipe",
-      "sortid": 239,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_reset",
@@ -3552,7 +3552,7 @@
     {
       "name": "BrownReset",
       "type": "recipe",
-      "sortid": 240,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_reset",
@@ -3566,7 +3566,7 @@
     {
       "name": "RedReset",
       "type": "recipe",
-      "sortid": 241,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_reset",
@@ -3580,7 +3580,7 @@
     {
       "name": "OrangeReset",
       "type": "recipe",
-      "sortid": 242,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_reset",
@@ -3594,7 +3594,7 @@
     {
       "name": "YellowReset",
       "type": "recipe",
-      "sortid": 243,
+      "sortid": 291,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_reset",
@@ -3608,7 +3608,7 @@
     {
       "name": "LimeReset",
       "type": "recipe",
-      "sortid": 244,
+      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_reset",
@@ -3622,7 +3622,7 @@
     {
       "name": "GreenReset",
       "type": "recipe",
-      "sortid": 245,
+      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_reset",
@@ -3636,7 +3636,7 @@
     {
       "name": "CyanReset",
       "type": "recipe",
-      "sortid": 246,
+      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_reset",
@@ -3650,7 +3650,7 @@
     {
       "name": "LightBlueReset",
       "type": "recipe",
-      "sortid": 247,
+      "sortid": 295,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_reset",
@@ -3664,7 +3664,7 @@
     {
       "name": "BlueReset",
       "type": "recipe",
-      "sortid": 248,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_reset",
@@ -3678,7 +3678,7 @@
     {
       "name": "PurpleReset",
       "type": "recipe",
-      "sortid": 249,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_reset",
@@ -3692,7 +3692,7 @@
     {
       "name": "MagentaReset",
       "type": "recipe",
-      "sortid": 250,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_reset",
@@ -3706,7 +3706,7 @@
     {
       "name": "PinkReset",
       "type": "recipe",
-      "sortid": 251,
+      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_reset",
@@ -3720,7 +3720,7 @@
     {
       "name": "WhiteFireResistanceFilledVape",
       "type": "item",
-      "sortid": 252,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_fire_resistance_filled_vape",
@@ -3735,7 +3735,7 @@
     {
       "name": "FireResistanceFilledVapeRightclicked",
       "type": "procedure",
-      "sortid": 253,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_resistance_filled_vape_rightclicked",
@@ -3775,7 +3775,7 @@
     {
       "name": "LightGrayFireResistanceFilledVape",
       "type": "item",
-      "sortid": 254,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_fire_resistance_filled_vape",
@@ -3790,7 +3790,7 @@
     {
       "name": "GrayFireResistanceFilledVape",
       "type": "item",
-      "sortid": 255,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_fire_resistance_filled_vape",
@@ -3805,7 +3805,7 @@
     {
       "name": "BlackFireResistanceFilledVape",
       "type": "item",
-      "sortid": 256,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_fire_resistance_filled_vape",
@@ -3820,7 +3820,7 @@
     {
       "name": "BrownFireResistanceFilledVape",
       "type": "item",
-      "sortid": 257,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_fire_resistance_filled_vape",
@@ -3835,7 +3835,7 @@
     {
       "name": "RedFireResistanceFilledVape",
       "type": "item",
-      "sortid": 258,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_fire_resistance_filled_vape",
@@ -3850,7 +3850,7 @@
     {
       "name": "OrangeFireResistanceFilledVape",
       "type": "item",
-      "sortid": 259,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_fire_resistance_filled_vape",
@@ -3865,7 +3865,7 @@
     {
       "name": "YellowFireResistanceFilledVape",
       "type": "item",
-      "sortid": 260,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_fire_resistance_filled_vape",
@@ -3880,7 +3880,7 @@
     {
       "name": "LimeFireResistanceFilledVape",
       "type": "item",
-      "sortid": 261,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_fire_resistance_filled_vape",
@@ -3895,7 +3895,7 @@
     {
       "name": "GreenFireResistanceFilledVape",
       "type": "item",
-      "sortid": 262,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_fire_resistance_filled_vape",
@@ -3910,7 +3910,7 @@
     {
       "name": "CyanFireResistanceFilledVape",
       "type": "item",
-      "sortid": 263,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_fire_resistance_filled_vape",
@@ -3925,7 +3925,7 @@
     {
       "name": "LightBlueFireResistanceFilledVape",
       "type": "item",
-      "sortid": 264,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_fire_resistance_filled_vape",
@@ -3940,7 +3940,7 @@
     {
       "name": "BlueFireResistanceFilledVape",
       "type": "item",
-      "sortid": 265,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_fire_resistance_filled_vape",
@@ -3955,7 +3955,7 @@
     {
       "name": "PurpleFireResistanceFilledVape",
       "type": "item",
-      "sortid": 266,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_fire_resistance_filled_vape",
@@ -3970,7 +3970,7 @@
     {
       "name": "MagentaFireResistanceFilledVape",
       "type": "item",
-      "sortid": 267,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_fire_resistance_filled_vape",
@@ -3985,7 +3985,7 @@
     {
       "name": "PinkFireResistanceFilledVape",
       "type": "item",
-      "sortid": 268,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_fire_resistance_filled_vape",
@@ -4000,7 +4000,7 @@
     {
       "name": "WhiteFireResistance",
       "type": "recipe",
-      "sortid": 269,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_fire_resistance",
@@ -4014,7 +4014,7 @@
     {
       "name": "LightGrayFireResistance",
       "type": "recipe",
-      "sortid": 270,
+      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_fire_resistance",
@@ -4028,7 +4028,7 @@
     {
       "name": "GrayFireResistance",
       "type": "recipe",
-      "sortid": 271,
+      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_fire_resistance",
@@ -4042,7 +4042,7 @@
     {
       "name": "BlackFireResistance",
       "type": "recipe",
-      "sortid": 272,
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_fire_resistance",
@@ -4056,7 +4056,7 @@
     {
       "name": "BrownFireResistance",
       "type": "recipe",
-      "sortid": 273,
+      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_fire_resistance",
@@ -4070,7 +4070,7 @@
     {
       "name": "RedFireResistance",
       "type": "recipe",
-      "sortid": 274,
+      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_fire_resistance",
@@ -4084,7 +4084,7 @@
     {
       "name": "OrangeFireResistance",
       "type": "recipe",
-      "sortid": 275,
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_fire_resistance",
@@ -4098,7 +4098,7 @@
     {
       "name": "YellowFireResistance",
       "type": "recipe",
-      "sortid": 276,
+      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_fire_resistance",
@@ -4112,7 +4112,7 @@
     {
       "name": "LimeFireResistance",
       "type": "recipe",
-      "sortid": 277,
+      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_fire_resistance",
@@ -4126,7 +4126,7 @@
     {
       "name": "GreenFireResistance",
       "type": "recipe",
-      "sortid": 278,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_fire_resistance",
@@ -4140,7 +4140,7 @@
     {
       "name": "CyanFireResistance",
       "type": "recipe",
-      "sortid": 279,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_fire_resistance",
@@ -4154,7 +4154,7 @@
     {
       "name": "LightBlueFireResistance",
       "type": "recipe",
-      "sortid": 280,
+      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_fire_resistance",
@@ -4168,7 +4168,7 @@
     {
       "name": "BlueFireResistance",
       "type": "recipe",
-      "sortid": 281,
+      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_fire_resistance",
@@ -4182,7 +4182,7 @@
     {
       "name": "PurpleFireResistance",
       "type": "recipe",
-      "sortid": 282,
+      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_fire_resistance",
@@ -4196,7 +4196,7 @@
     {
       "name": "MagentaFireResistance",
       "type": "recipe",
-      "sortid": 283,
+      "sortid": 315,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_fire_resistance",
@@ -4210,7 +4210,7 @@
     {
       "name": "PinkFireResistance",
       "type": "recipe",
-      "sortid": 284,
+      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_fire_resistance",
@@ -4224,7 +4224,7 @@
     {
       "name": "AwkwardBrew",
       "type": "recipe",
-      "sortid": 285,
+      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "registry_name": "awkward_brew",
@@ -4238,7 +4238,7 @@
     {
       "name": "NightVisBrew",
       "type": "recipe",
-      "sortid": 286,
+      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "registry_name": "night_vis_brew",
@@ -4252,7 +4252,7 @@
     {
       "name": "InvisBrew",
       "type": "recipe",
-      "sortid": 287,
+      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "registry_name": "invis_brew",
@@ -4266,7 +4266,7 @@
     {
       "name": "LeapingBrew",
       "type": "recipe",
-      "sortid": 288,
+      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leaping_brew",
@@ -4280,7 +4280,7 @@
     {
       "name": "FireResBrew",
       "type": "recipe",
-      "sortid": 289,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_res_brew",
@@ -4294,7 +4294,7 @@
     {
       "name": "SwiftnessBrew",
       "type": "recipe",
-      "sortid": 290,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "registry_name": "swiftness_brew",
@@ -4308,7 +4308,7 @@
     {
       "name": "SlowBrew1",
       "type": "recipe",
-      "sortid": 291,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "registry_name": "slow_brew_1",
@@ -4322,7 +4322,7 @@
     {
       "name": "SlowBrew2",
       "type": "recipe",
-      "sortid": 292,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "registry_name": "slow_brew_2",
@@ -4336,7 +4336,7 @@
     {
       "name": "TurtleMasterBrew",
       "type": "recipe",
-      "sortid": 293,
+      "sortid": 325,
       "compiles": true,
       "locked_code": false,
       "registry_name": "turtle_master_brew",
@@ -4350,7 +4350,7 @@
     {
       "name": "WhiteSwiftnessFilledVape",
       "type": "item",
-      "sortid": 294,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_swiftness_filled_vape",
@@ -4365,7 +4365,7 @@
     {
       "name": "SwiftnessFilledVapeRightclicked",
       "type": "procedure",
-      "sortid": 295,
+      "sortid": 326,
       "compiles": true,
       "locked_code": false,
       "registry_name": "swiftness_filled_vape_rightclicked",
@@ -4405,7 +4405,7 @@
     {
       "name": "LightGraySwiftnessFilledVape",
       "type": "item",
-      "sortid": 296,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_swiftness_filled_vape",
@@ -4420,7 +4420,7 @@
     {
       "name": "GraySwiftnessFilledVape",
       "type": "item",
-      "sortid": 297,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_swiftness_filled_vape",
@@ -4435,7 +4435,7 @@
     {
       "name": "BlackSwiftnessFilledVape",
       "type": "item",
-      "sortid": 298,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_swiftness_filled_vape",
@@ -4450,7 +4450,7 @@
     {
       "name": "BrownSwiftnessFilledVape",
       "type": "item",
-      "sortid": 299,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_swiftness_filled_vape",
@@ -4465,7 +4465,7 @@
     {
       "name": "RedSwiftnessFilledVape",
       "type": "item",
-      "sortid": 300,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_swiftness_filled_vape",
@@ -4480,7 +4480,7 @@
     {
       "name": "OrangeSwiftnessFilledVape",
       "type": "item",
-      "sortid": 301,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_swiftness_filled_vape",
@@ -4495,7 +4495,7 @@
     {
       "name": "YellowSwiftnessFilledVape",
       "type": "item",
-      "sortid": 302,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_swiftness_filled_vape",
@@ -4510,7 +4510,7 @@
     {
       "name": "LimeSwiftnessFilledVape",
       "type": "item",
-      "sortid": 303,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_swiftness_filled_vape",
@@ -4525,7 +4525,7 @@
     {
       "name": "GreenSwiftnessFilledVape",
       "type": "item",
-      "sortid": 304,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_swiftness_filled_vape",
@@ -4540,7 +4540,7 @@
     {
       "name": "CyanSwiftnessFilledVape",
       "type": "item",
-      "sortid": 305,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_swiftness_filled_vape",
@@ -4555,7 +4555,7 @@
     {
       "name": "LightBlueSwiftnessFilledVape",
       "type": "item",
-      "sortid": 306,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_swiftness_filled_vape",
@@ -4570,7 +4570,7 @@
     {
       "name": "BlueSwiftnessFilledVape",
       "type": "item",
-      "sortid": 307,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_swiftness_filled_vape",
@@ -4585,7 +4585,7 @@
     {
       "name": "PurpleSwiftnessFilledVape",
       "type": "item",
-      "sortid": 308,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_swiftness_filled_vape",
@@ -4600,7 +4600,7 @@
     {
       "name": "MagentaSwiftnessFilledVape",
       "type": "item",
-      "sortid": 309,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_swiftness_filled_vape",
@@ -4615,7 +4615,7 @@
     {
       "name": "PinkSwiftnessFilledVape",
       "type": "item",
-      "sortid": 310,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_swiftness_filled_vape",
@@ -4630,7 +4630,7 @@
     {
       "name": "WhiteSwiftness",
       "type": "recipe",
-      "sortid": 311,
+      "sortid": 327,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_swiftness",
@@ -4644,7 +4644,7 @@
     {
       "name": "LightGraySwiftness",
       "type": "recipe",
-      "sortid": 312,
+      "sortid": 328,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_swiftness",
@@ -4658,7 +4658,7 @@
     {
       "name": "GraySwiftness",
       "type": "recipe",
-      "sortid": 313,
+      "sortid": 329,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_swiftness",
@@ -4672,7 +4672,7 @@
     {
       "name": "BlackSwiftness",
       "type": "recipe",
-      "sortid": 314,
+      "sortid": 330,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_swiftness",
@@ -4686,7 +4686,7 @@
     {
       "name": "BrownSwiftness",
       "type": "recipe",
-      "sortid": 315,
+      "sortid": 331,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_swiftness",
@@ -4700,7 +4700,7 @@
     {
       "name": "RedSwiftness",
       "type": "recipe",
-      "sortid": 316,
+      "sortid": 332,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_swiftness",
@@ -4714,7 +4714,7 @@
     {
       "name": "OrangeSwiftness",
       "type": "recipe",
-      "sortid": 317,
+      "sortid": 333,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_swiftness",
@@ -4728,7 +4728,7 @@
     {
       "name": "YellowSwiftness",
       "type": "recipe",
-      "sortid": 318,
+      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_swiftness",
@@ -4742,7 +4742,7 @@
     {
       "name": "LimeSwiftness",
       "type": "recipe",
-      "sortid": 319,
+      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_swiftness",
@@ -4756,7 +4756,7 @@
     {
       "name": "GreenSwiftness",
       "type": "recipe",
-      "sortid": 320,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_swiftness",
@@ -4770,7 +4770,7 @@
     {
       "name": "CyanSwiftness",
       "type": "recipe",
-      "sortid": 321,
+      "sortid": 337,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_swiftness",
@@ -4784,7 +4784,7 @@
     {
       "name": "LightBlueSwiftness",
       "type": "recipe",
-      "sortid": 322,
+      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_swiftness",
@@ -4798,7 +4798,7 @@
     {
       "name": "BlueSwiftness",
       "type": "recipe",
-      "sortid": 323,
+      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_swiftness",
@@ -4812,7 +4812,7 @@
     {
       "name": "PurpleSwiftness",
       "type": "recipe",
-      "sortid": 324,
+      "sortid": 340,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_swiftness",
@@ -4826,7 +4826,7 @@
     {
       "name": "MagentaSwiftness",
       "type": "recipe",
-      "sortid": 325,
+      "sortid": 341,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_swiftness",
@@ -4840,7 +4840,7 @@
     {
       "name": "PinkSwiftness",
       "type": "recipe",
-      "sortid": 326,
+      "sortid": 342,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_swiftness",
@@ -4850,6 +4850,524 @@
         ]
       },
       "path": "~/Vapes/SwiftnessFilledVapes/SwiftnessCrafting"
+    },
+    {
+      "name": "FillWaterPod",
+      "type": "recipe",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fill_water_pod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/fill_water_pod.json"
+        ]
+      },
+      "path": "~/Vape Pods"
+    },
+    {
+      "name": "WhiteSlownessFilledVape",
+      "type": "item",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_slowness_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/WhiteSlownessFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/white_slowness_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes"
+    },
+    {
+      "name": "SlownessFilledVapeRightclicked",
+      "type": "procedure",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slowness_filled_vape_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/procedures/SlownessFilledVapeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Vapes/procedures"
+    },
+    {
+      "name": "LightGraySlownessFilledVape",
+      "type": "item",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_slowness_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/LightGraySlownessFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/light_gray_slowness_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes"
+    },
+    {
+      "name": "GraySlownessFilledVape",
+      "type": "item",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_slowness_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/gray_slowness_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/GraySlownessFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes"
+    },
+    {
+      "name": "BlackSlownessFilledVape",
+      "type": "item",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_slowness_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/black_slowness_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/BlackSlownessFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes"
+    },
+    {
+      "name": "BrownSlownessFilledVape",
+      "type": "item",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_slowness_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/BrownSlownessFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/brown_slowness_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes"
+    },
+    {
+      "name": "RedSlownessFilledVape",
+      "type": "item",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_slowness_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/RedSlownessFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/red_slowness_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes"
+    },
+    {
+      "name": "OrangeSlownessFilledVape",
+      "type": "item",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_slowness_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/OrangeSlownessFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/orange_slowness_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes"
+    },
+    {
+      "name": "YellowSlownessFilledVape",
+      "type": "item",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_slowness_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/YellowSlownessFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/yellow_slowness_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes"
+    },
+    {
+      "name": "LimeSlownessFilledVape",
+      "type": "item",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_slowness_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/lime_slowness_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/LimeSlownessFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes"
+    },
+    {
+      "name": "GreenSlownessFilledVape",
+      "type": "item",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_slowness_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/GreenSlownessFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/green_slowness_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes"
+    },
+    {
+      "name": "CyanSlownessFilledVape",
+      "type": "item",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_slowness_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/cyan_slowness_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/CyanSlownessFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes"
+    },
+    {
+      "name": "LightBlueSlownessFilledVape",
+      "type": "item",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_slowness_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/LightBlueSlownessFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/light_blue_slowness_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes"
+    },
+    {
+      "name": "BlueSlownessFilledVape",
+      "type": "item",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_slowness_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/BlueSlownessFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/blue_slowness_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes"
+    },
+    {
+      "name": "PurpleSlownessFilledVape",
+      "type": "item",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_slowness_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/PurpleSlownessFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/purple_slowness_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes"
+    },
+    {
+      "name": "MagentaSlownessFilledVape",
+      "type": "item",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_slowness_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/item/MagentaSlownessFilledVapeItem.java",
+          "src/main/resources/assets/vapeaholic/models/item/magenta_slowness_filled_vape.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes"
+    },
+    {
+      "name": "PinkSlownessFilledVape",
+      "type": "item",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_slowness_filled_vape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/pink_slowness_filled_vape.json",
+          "src/main/java/net/mcreator/vapeaholic/item/PinkSlownessFilledVapeItem.java"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes"
+    },
+    {
+      "name": "WhiteSlowness",
+      "type": "recipe",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_slowness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/white_slowness.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes/SlownessCrafting"
+    },
+    {
+      "name": "LightGraySlowness",
+      "type": "recipe",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_slowness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_gray_slowness.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes/SlownessCrafting"
+    },
+    {
+      "name": "GraySlowness",
+      "type": "recipe",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_slowness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/gray_slowness.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes/SlownessCrafting"
+    },
+    {
+      "name": "BlackSlowness",
+      "type": "recipe",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_slowness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/black_slowness.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes/SlownessCrafting"
+    },
+    {
+      "name": "BrownSlowness",
+      "type": "recipe",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_slowness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/brown_slowness.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes/SlownessCrafting"
+    },
+    {
+      "name": "RedSlowness",
+      "type": "recipe",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_slowness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/red_slowness.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes/SlownessCrafting"
+    },
+    {
+      "name": "OrangeSlowness",
+      "type": "recipe",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_slowness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/orange_slowness.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes/SlownessCrafting"
+    },
+    {
+      "name": "YellowSlowness",
+      "type": "recipe",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_slowness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/yellow_slowness.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes/SlownessCrafting"
+    },
+    {
+      "name": "LimeSlowness",
+      "type": "recipe",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_slowness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/lime_slowness.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes/SlownessCrafting"
+    },
+    {
+      "name": "GreenSlowness",
+      "type": "recipe",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_slowness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/green_slowness.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes/SlownessCrafting"
+    },
+    {
+      "name": "CyanSlowness",
+      "type": "recipe",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_slowness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/cyan_slowness.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes/SlownessCrafting"
+    },
+    {
+      "name": "LightBlueSlowness",
+      "type": "recipe",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_slowness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/light_blue_slowness.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes/SlownessCrafting"
+    },
+    {
+      "name": "BlueSlowness",
+      "type": "recipe",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_slowness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/blue_slowness.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes/SlownessCrafting"
+    },
+    {
+      "name": "PurpleSlowness",
+      "type": "recipe",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_slowness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/purple_slowness.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes/SlownessCrafting"
+    },
+    {
+      "name": "MagentaSlowness",
+      "type": "recipe",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_slowness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/magenta_slowness.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes/SlownessCrafting"
+    },
+    {
+      "name": "PinkSlowness",
+      "type": "recipe",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_slowness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/pink_slowness.json"
+        ]
+      },
+      "path": "~/Vapes/SlownessFilledVapes/SlownessCrafting"
     }
   ],
   "variable_elements": [
@@ -4858,6 +5376,12 @@
       "type": "number",
       "scope": "map",
       "value": "3.0"
+    },
+    {
+      "name": "EffectStrength",
+      "type": "number",
+      "scope": "map",
+      "value": "1.0"
     }
   ],
   "sound_elements": [
@@ -4878,6 +5402,7 @@
       "item.vapeaholic.white_night_vision_filled_vape": "White Vape",
       "item.vapeaholic.black_jump_boost_filled_vape": "Black Vape",
       "item.vapeaholic.light_gray_water_filled_vape": "Light Gray Vape",
+      "item.vapeaholic.light_gray_slowness_filled_vape": "Light Gray Vape",
       "item.vapeaholic.lime_fire_resistance_filled_vape": "Lime Vape",
       "item.vapeaholic.blue_water_filled_vape": "Blue Vape",
       "item.vapeaholic.mouthpiece": "Mouthpiece",
@@ -4890,18 +5415,23 @@
       "item.vapeaholic.magenta_vape": "Magenta Vape",
       "item.vapeaholic.awkward_potion_filled_vape_pod": "Awkward Potion Filled Vape Pod",
       "item.vapeaholic.pink_fire_resistance_filled_vape": "Pink Vape",
+      "item.vapeaholic.pink_slowness_filled_vape": "Pink Vape",
       "item.vapeaholic.yellow_night_vision_filled_vape": "Yellow Vape",
       "item.vapeaholic.purple_vape": "Purple Vape",
+      "item.vapeaholic.cyan_slowness_filled_vape": "Cyan Vape",
       "subtitles.breathing": "Player Vaping",
       "item.vapeaholic.thick_potion_filled_vape_pod": "Thick Potion Filled Vape Pod",
+      "item.vapeaholic.orange_slowness_filled_vape": "Orange Vape",
       "item.vapeaholic.yellow_invisibility_filled_vape": "Yellow Vape",
       "item.vapeaholic.light_blue_swiftness_filled_vape": "Light Blue Vape",
+      "item.vapeaholic.light_blue_slowness_filled_vape": "Light Blue Vape",
       "item.vapeaholic.light_gray_fire_resistance_filled_vape": "Light Gray Vape",
       "item.vapeaholic.light_gray_vape": "Light Gray Vape",
       "item.vapeaholic.cyan_jump_boost_filled_vape": "Cyan Vape",
       "item.vapeaholic.gray_fire_resistance_filled_vape": "Gray Vape",
       "item.vapeaholic.orange_vape": "Orange Vape",
       "item.vapeaholic.black_swiftness_filled_vape": "Black Vape",
+      "item.vapeaholic.purple_slowness_filled_vape": "Purple Vape",
       "item.vapeaholic.orange_water_filled_vape": "Orange Vape",
       "item.vapeaholic.orange_swiftness_filled_vape": "Orange Vape",
       "item.vapeaholic.brown_water_filled_vape": "Brown Vape",
@@ -4924,6 +5454,8 @@
       "item.vapeaholic.brown_night_vision_filled_vape": "Brown Vape",
       "item.vapeaholic.yellow_water_filled_vape": "Yellow Vape",
       "item.vapeaholic.light_blue_vape": "Light Blue Vape",
+      "item.vapeaholic.blue_slowness_filled_vape": "Blue Vape",
+      "item.vapeaholic.magenta_slowness_filled_vape": "Magenta Vape",
       "item.vapeaholic.gray_water_filled_vape": "Gray Vape",
       "item.vapeaholic.red_water_filled_vape": "Red Vape",
       "item.vapeaholic.magenta_fire_resistance_filled_vape": "Magenta Vape",
@@ -4932,9 +5464,12 @@
       "item.vapeaholic.red_swiftness_filled_vape": "Red Vape",
       "item.vapeaholic.purple_fire_resistance_filled_vape": "Purple Vape",
       "item.vapeaholic.pink_swiftness_filled_vape": "Pink Vape",
+      "item.vapeaholic.gray_slowness_filled_vape": "Gray Vape",
+      "item.vapeaholic.green_slowness_filled_vape": "Green Vape",
       "item.vapeaholic.yellow_jump_boost_filled_vape": "Yellow Vape",
       "item.vapeaholic.white_invisibility_filled_vape": "White Vape",
       "item.vapeaholic.light_blue_fire_resistance_filled_vape": "Light Blue Vape",
+      "item.vapeaholic.brown_slowness_filled_vape": "Brown Vape",
       "item.vapeaholic.magenta_jump_boost_filled_vape": "Magenta Vape",
       "item.vapeaholic.brown_invisibility_filled_vape": "Brown Vape",
       "item.vapeaholic.red_jump_boost_filled_vape": "Red Vape",
@@ -4950,10 +5485,13 @@
       "item.vapeaholic.green_invisibility_filled_vape": "Green Vape",
       "item.vapeaholic.blue_swiftness_filled_vape": "Blue Vape",
       "item.vapeaholic.black_water_filled_vape": "Black Vape",
+      "item.vapeaholic.black_slowness_filled_vape": "Black Vape",
+      "item.vapeaholic.yellow_slowness_filled_vape": "Yellow Vape",
       "item.vapeaholic.light_gray_jump_boost_filled_vape": "Light Gray Vape",
       "item.vapeaholic.lime_invisibility_filled_vape": "Lime Vape",
       "item.vapeaholic.green_fire_resistance_filled_vape": "Green Vape",
       "item.vapeaholic.vape_pod_of_slowness": "Vape Pod Of Slowness",
+      "item.vapeaholic.red_slowness_filled_vape": "Red Vape",
       "item.vapeaholic.blue_night_vision_filled_vape": "Blue Vape",
       "item.vapeaholic.black_night_vision_filled_vape": "Black Vape",
       "item.vapeaholic.lime_night_vision_filled_vape": "Lime Vape",
@@ -4970,6 +5508,7 @@
       "item.vapeaholic.orange_night_vision_filled_vape": "Orange Vape",
       "item.vapeaholic.yellow_vape": "Yellow Vape",
       "item.vapeaholic.orange_invisibility_filled_vape": "Orange Vape",
+      "item.vapeaholic.white_slowness_filled_vape": "White Vape",
       "item.vapeaholic.black_vape": "Black Vape",
       "item.vapeaholic.pink_jump_boost_filled_vape": "Pink Vape",
       "item.vapeaholic.vape_pod_of_fire_resistance": "Vape Pod Of Fire Resistance",
@@ -4981,6 +5520,7 @@
       "item.vapeaholic.green_water_filled_vape": "Green Vape",
       "item.vapeaholic.green_jump_boost_filled_vape": "Green Vape",
       "item.vapeaholic.light_gray_invisibility_filled_vape": "Light Gray Vape",
+      "item.vapeaholic.lime_slowness_filled_vape": "Lime Vape",
       "item.vapeaholic.gray_jump_boost_filled_vape": "Gray Vape",
       "item.vapeaholic.green_vape": "Green Vape",
       "item.vapeaholic.black_fire_resistance_filled_vape": "Black Vape",
@@ -5085,6 +5625,15 @@
             "children": [
               {
                 "name": "SwiftnessCrafting",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "SlownessFilledVapes",
+            "children": [
+              {
+                "name": "SlownessCrafting",
                 "children": []
               }
             ]

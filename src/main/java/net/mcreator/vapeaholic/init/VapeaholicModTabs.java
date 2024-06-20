@@ -130,6 +130,22 @@ public class VapeaholicModTabs {
 				tabData.accept(VapeaholicModItems.PURPLE_SWIFTNESS_FILLED_VAPE.get());
 				tabData.accept(VapeaholicModItems.MAGENTA_SWIFTNESS_FILLED_VAPE.get());
 				tabData.accept(VapeaholicModItems.PINK_SWIFTNESS_FILLED_VAPE.get());
+				tabData.accept(VapeaholicModItems.WHITE_SLOWNESS_FILLED_VAPE.get());
+				tabData.accept(VapeaholicModItems.LIGHT_GRAY_SLOWNESS_FILLED_VAPE.get());
+				tabData.accept(VapeaholicModItems.GRAY_SLOWNESS_FILLED_VAPE.get());
+				tabData.accept(VapeaholicModItems.BLACK_SLOWNESS_FILLED_VAPE.get());
+				tabData.accept(VapeaholicModItems.BROWN_SLOWNESS_FILLED_VAPE.get());
+				tabData.accept(VapeaholicModItems.RED_SLOWNESS_FILLED_VAPE.get());
+				tabData.accept(VapeaholicModItems.ORANGE_SLOWNESS_FILLED_VAPE.get());
+				tabData.accept(VapeaholicModItems.YELLOW_SLOWNESS_FILLED_VAPE.get());
+				tabData.accept(VapeaholicModItems.LIME_SLOWNESS_FILLED_VAPE.get());
+				tabData.accept(VapeaholicModItems.GREEN_SLOWNESS_FILLED_VAPE.get());
+				tabData.accept(VapeaholicModItems.CYAN_SLOWNESS_FILLED_VAPE.get());
+				tabData.accept(VapeaholicModItems.LIGHT_BLUE_SLOWNESS_FILLED_VAPE.get());
+				tabData.accept(VapeaholicModItems.BLUE_SLOWNESS_FILLED_VAPE.get());
+				tabData.accept(VapeaholicModItems.PURPLE_SLOWNESS_FILLED_VAPE.get());
+				tabData.accept(VapeaholicModItems.MAGENTA_SLOWNESS_FILLED_VAPE.get());
+				tabData.accept(VapeaholicModItems.PINK_SLOWNESS_FILLED_VAPE.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> VAPE_PODS = REGISTRY.register("vape_pods",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.vapeaholic.vape_pods")).icon(() -> new ItemStack(VapeaholicModItems.EMPTY_VAPE_POD.get())).displayItems((parameters, tabData) -> {

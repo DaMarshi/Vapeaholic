@@ -30,7 +30,7 @@ public class InvisibilityFilledVapeRightclickedProcedure {
 		double spread = 0;
 		if (itemstack.getDamageValue() != 30) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, 160, 0, false, true));
+				_entity.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, 160, (int) VapeaholicModVariables.MapVariables.get(world).EffectStrength, false, true));
 			speed = 0.1;
 			spread = 0.02;
 			for (int index0 = 0; index0 < (int) VapeaholicModVariables.MapVariables.get(world).PuffAmount; index0++) {

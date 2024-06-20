@@ -88,6 +88,7 @@ public class VapeaholicModVariables {
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "vapeaholic_mapvars";
 		public double PuffAmount = 3.0;
+		public double EffectStrength = 1.0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -97,11 +98,13 @@ public class VapeaholicModVariables {
 
 		public void read(CompoundTag nbt) {
 			PuffAmount = nbt.getDouble("PuffAmount");
+			EffectStrength = nbt.getDouble("EffectStrength");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putDouble("PuffAmount", PuffAmount);
+			nbt.putDouble("EffectStrength", EffectStrength);
 			return nbt;
 		}
 

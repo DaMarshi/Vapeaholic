@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "vape",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "vapeaholic:magenta"
+    },
+    {
+      "item": "vapeaholic:vape_pod_of_slowness"
+    }
+  ],
+  "result": {
+    "item": "vapeaholic:magenta_slowness_filled_vape",
+    "count": 1
+  }
+}
