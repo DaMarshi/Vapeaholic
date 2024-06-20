@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pod",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "b b",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:planks"
+    },
+    "b": {
+      "item": "minecraft:glass_pane"
+    },
+    "c": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "vapeaholic:empty_vape_pod",
+    "count": 8
+  }
+}

@@ -5589,6 +5589,44 @@
         ]
       },
       "path": "~/Vape Components"
+    },
+    {
+      "name": "EmptyCraft",
+      "type": "recipe",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/empty_craft.json"
+        ]
+      },
+      "path": "~/Vape Pods"
+    },
+    {
+      "name": "WaterPodCraft",
+      "type": "procedure",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_pod_craft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/procedures/WaterPodCraftProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Vape Pods"
     }
   ],
   "variable_elements": [
@@ -5884,10 +5922,9 @@
   "workspaceSettings": {
     "modid": "vapeaholic",
     "modName": "Vapeaholic",
-    "version": "1.0.0",
-    "author": "noahm, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "version": "1.0.0 - Alpha",
+    "author": "DaMarshi, MCreator",
+    "license": "Apache License version 2.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],

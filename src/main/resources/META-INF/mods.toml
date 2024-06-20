@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="Academic Free License v3.0"
+license="Apache License version 2.0"
 
 [[mods]]
 modId="vapeaholic"
@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="Vapeaholic"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="noahm, MCreator"
+authors="DaMarshi, MCreator"
 
 [[dependencies.vapeaholic]]
     modId="minecraft"
