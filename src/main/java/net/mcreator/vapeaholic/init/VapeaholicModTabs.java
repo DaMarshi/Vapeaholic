@@ -161,6 +161,7 @@ public class VapeaholicModTabs {
 				tabData.accept(VapeaholicModItems.VAPE_POD_OF_SWIFTNESS.get());
 				tabData.accept(VapeaholicModItems.VAPE_POD_OF_SLOWNESS.get());
 				tabData.accept(VapeaholicModItems.VAPE_POD_OF_THE_TURTLE_MASTER.get());
+				tabData.accept(VapeaholicModItems.VAPE_POD_OF_WATER_BREATHING.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> VAPE_COMPONENTS = REGISTRY.register("vape_components",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.vapeaholic.vape_components")).icon(() -> new ItemStack(VapeaholicModItems.BATTERY.get())).displayItems((parameters, tabData) -> {

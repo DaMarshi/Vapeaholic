@@ -5368,6 +5368,227 @@
         ]
       },
       "path": "~/Vapes/SlownessFilledVapes/SlownessCrafting"
+    },
+    {
+      "name": "WaterBreathingPuff",
+      "type": "particle",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_breathing_puff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/client/particle/WaterBreathingPuffParticle.java",
+          "src/main/resources/assets/vapeaholic/particles/water_breathing_puff.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "VapePodOfWaterBreathing",
+      "type": "item",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vape_pod_of_water_breathing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/models/item/vape_pod_of_water_breathing.json",
+          "src/main/java/net/mcreator/vapeaholic/item/VapePodOfWaterBreathingItem.java"
+        ]
+      },
+      "path": "~/Vape Pods"
+    },
+    {
+      "name": "WaterBreathingBrew",
+      "type": "recipe",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_breathing_brew",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/recipes/brewing/WaterBreathingBrewBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Vape Pods/brewing"
+    },
+    {
+      "name": "InstantHealthPuff",
+      "type": "particle",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instant_health_puff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/client/particle/InstantHealthPuffParticle.java",
+          "src/main/resources/assets/vapeaholic/particles/instant_health_puff.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "InstantDamagePuff",
+      "type": "particle",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instant_damage_puff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/particles/instant_damage_puff.json",
+          "src/main/java/net/mcreator/vapeaholic/client/particle/InstantDamagePuffParticle.java"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "PoisonPuff",
+      "type": "particle",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_puff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/client/particle/PoisonPuffParticle.java",
+          "src/main/resources/assets/vapeaholic/particles/poison_puff.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "RegenPuff",
+      "type": "particle",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "regen_puff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/client/particle/RegenPuffParticle.java",
+          "src/main/resources/assets/vapeaholic/particles/regen_puff.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "StrengthPuff",
+      "type": "particle",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_puff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/particles/strength_puff.json",
+          "src/main/java/net/mcreator/vapeaholic/client/particle/StrengthPuffParticle.java"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "WeaknessPuff",
+      "type": "particle",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weakness_puff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/particles/weakness_puff.json",
+          "src/main/java/net/mcreator/vapeaholic/client/particle/WeaknessPuffParticle.java"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "LuckPuff",
+      "type": "particle",
+      "sortid": 370,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luck_puff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/client/particle/LuckPuffParticle.java",
+          "src/main/resources/assets/vapeaholic/particles/luck_puff.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "WitherPuff",
+      "type": "particle",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_puff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vapeaholic/particles/wither_puff.json",
+          "src/main/java/net/mcreator/vapeaholic/client/particle/WitherPuffParticle.java"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "SlowFallPuff",
+      "type": "particle",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slow_fall_puff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vapeaholic/client/particle/SlowFallPuffParticle.java",
+          "src/main/resources/assets/vapeaholic/particles/slow_fall_puff.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "CoilCraft",
+      "type": "recipe",
+      "sortid": 373,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coil_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/coil_craft.json"
+        ]
+      },
+      "path": "~/Vape Components"
+    },
+    {
+      "name": "MouthpieceCraft",
+      "type": "recipe",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouthpiece_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/mouthpiece_craft.json"
+        ]
+      },
+      "path": "~/Vape Components"
+    },
+    {
+      "name": "BatteryCraft",
+      "type": "recipe",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battery_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vapeaholic/recipes/battery_craft.json"
+        ]
+      },
+      "path": "~/Vape Components"
     }
   ],
   "variable_elements": [
@@ -5413,6 +5634,7 @@
       "item.vapeaholic.vape_pod_of_night_vision": "Vape Pod Of Night Vision",
       "item.vapeaholic.red_night_vision_filled_vape": "Red Vape",
       "item.vapeaholic.magenta_vape": "Magenta Vape",
+      "item.vapeaholic.vape_pod_of_water_breathing": "Vape Pod Of Water Breathing",
       "item.vapeaholic.awkward_potion_filled_vape_pod": "Awkward Potion Filled Vape Pod",
       "item.vapeaholic.pink_fire_resistance_filled_vape": "Pink Vape",
       "item.vapeaholic.pink_slowness_filled_vape": "Pink Vape",

@@ -27,6 +27,7 @@ import net.mcreator.vapeaholic.item.WhiteJumpBoostFilledVapeItem;
 import net.mcreator.vapeaholic.item.WhiteInvisibilityFilledVapeItem;
 import net.mcreator.vapeaholic.item.WhiteFireResistanceFilledVapeItem;
 import net.mcreator.vapeaholic.item.WaterFilledVapePodItem;
+import net.mcreator.vapeaholic.item.VapePodOfWaterBreathingItem;
 import net.mcreator.vapeaholic.item.VapePodOfTheTurtleMasterItem;
 import net.mcreator.vapeaholic.item.VapePodOfSwiftnessItem;
 import net.mcreator.vapeaholic.item.VapePodOfSlownessItem;
@@ -300,4 +301,5 @@ public class VapeaholicModItems {
 	public static final RegistryObject<Item> BATTERY = REGISTRY.register("battery", () -> new BatteryItem());
 	public static final RegistryObject<Item> COIL = REGISTRY.register("coil", () -> new CoilItem());
 	public static final RegistryObject<Item> MOUTHPIECE = REGISTRY.register("mouthpiece", () -> new MouthpieceItem());
+	public static final RegistryObject<Item> VAPE_POD_OF_WATER_BREATHING = REGISTRY.register("vape_pod_of_water_breathing", () -> new VapePodOfWaterBreathingItem());
 }

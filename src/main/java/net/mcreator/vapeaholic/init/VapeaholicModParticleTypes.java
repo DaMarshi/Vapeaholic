@@ -22,4 +22,14 @@ public class VapeaholicModParticleTypes {
 	public static final RegistryObject<SimpleParticleType> SWIFTNESS_PUFF = REGISTRY.register("swiftness_puff", () -> new SimpleParticleType(false));
 	public static final RegistryObject<SimpleParticleType> SLOWNESS_PUFF = REGISTRY.register("slowness_puff", () -> new SimpleParticleType(false));
 	public static final RegistryObject<SimpleParticleType> TURTLE_MASTER_PUFF = REGISTRY.register("turtle_master_puff", () -> new SimpleParticleType(false));
+	public static final RegistryObject<SimpleParticleType> WATER_BREATHING_PUFF = REGISTRY.register("water_breathing_puff", () -> new SimpleParticleType(false));
+	public static final RegistryObject<SimpleParticleType> INSTANT_HEALTH_PUFF = REGISTRY.register("instant_health_puff", () -> new SimpleParticleType(false));
+	public static final RegistryObject<SimpleParticleType> INSTANT_DAMAGE_PUFF = REGISTRY.register("instant_damage_puff", () -> new SimpleParticleType(false));
+	public static final RegistryObject<SimpleParticleType> POISON_PUFF = REGISTRY.register("poison_puff", () -> new SimpleParticleType(false));
+	public static final RegistryObject<SimpleParticleType> REGEN_PUFF = REGISTRY.register("regen_puff", () -> new SimpleParticleType(false));
+	public static final RegistryObject<SimpleParticleType> STRENGTH_PUFF = REGISTRY.register("strength_puff", () -> new SimpleParticleType(false));
+	public static final RegistryObject<SimpleParticleType> WEAKNESS_PUFF = REGISTRY.register("weakness_puff", () -> new SimpleParticleType(false));
+	public static final RegistryObject<SimpleParticleType> LUCK_PUFF = REGISTRY.register("luck_puff", () -> new SimpleParticleType(false));
+	public static final RegistryObject<SimpleParticleType> WITHER_PUFF = REGISTRY.register("wither_puff", () -> new SimpleParticleType(false));
+	public static final RegistryObject<SimpleParticleType> SLOW_FALL_PUFF = REGISTRY.register("slow_fall_puff", () -> new SimpleParticleType(false));
 }
