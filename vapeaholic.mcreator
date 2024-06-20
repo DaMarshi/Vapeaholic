@@ -5603,30 +5603,6 @@
         ]
       },
       "path": "~/Vape Pods"
-    },
-    {
-      "name": "WaterPodCraft",
-      "type": "procedure",
-      "sortid": 377,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "water_pod_craft",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/vapeaholic/procedures/WaterPodCraftProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/Vape Pods"
     }
   ],
   "variable_elements": [
